@@ -210,36 +210,98 @@ Typically ~5-10 minutes (varies by subject/task)
 
 ## 💾 Storage Requirements
 
-| Item | Size |
-|------|------|
-| Original txt files | ~58 GB |
-| Converted FIF files | ~12-15 GB (estimated) |
-| Working space needed | ~70-80 GB (for temporary processing) |
+### 📊 Server Capacity
 
-**Recommendation**: Process year-by-year to manage disk space
+**nrcd-master**: `/home/connectome`
+- Total: 816 GB
+- Used: 750 GB
+- Available: 25 GB ⚠️ (97% full - CRITICAL)
+
+**node3**: `/storage/bigdata`
+- Total: 465 TB ✅
+- Used: 135 TB
+- Available: 307 TB ✅ (31% full - EXCELLENT)
+
+### 📏 Dataset Size Breakdown
+
+**Original txt files** (measured):
+- 2019: 14 GB
+- 2020: 13 GB
+- 2021: 11 GB
+- 2022: 11 GB
+- 2023: 11 GB
+- Excel: 0.3 MB
+- **TOTAL: 58 GB**
+
+**Converted FIF files** (estimated):
+- Based on sample conversion ratio (~25-30% of original)
+- 58 GB × 0.27 ≈ 15-16 GB
+- Conservative estimate with overhead: ~20 GB
+
+### 📋 Final Storage Requirements
+
+| Item | Size | Node3 Impact |
+|------|------|--------------|
+| Original txt (if stored) | 58 GB | 0.019% of available |
+| Converted FIF files | ~16 GB | 0.005% of available |
+| Working buffer | ~10 GB | 0.003% of available |
+| **TOTAL (worst case)** | **84 GB** | **0.027% of 307 TB** |
+
+**Peak during processing**: ~30 GB (one year txt + conversion) - 0.010% of 307 TB
+
+**Final storage (FIF only)**: ~16 GB - 0.005% of 307 TB
 
 ---
 
 ## 🛠️ Disk Usage Commands
 
-### Check available space on nrcd-master
+### Check server capacity
+
+**nrcd-master**:
 ```bash
-df -h /lustre/external/connectome/brainwave
+# Check /home/connectome filesystem
+df -h /home/connectome
+
+# Check /lustre filesystem
+df -h /lustre
+
+# Check brainwave directory size (measured: 58G)
+du -sh /lustre/external/connectome/brainwave
+
+# Check by year
+du -sh /lustre/external/connectome/brainwave/*
 ```
 
-### Check available space on node3
+**node3**:
 ```bash
-df -h /storage/bigdata/GARD
+# Check /storage/bigdata filesystem (measured: 307T available)
+df -h /storage/bigdata
+
+# Check GARD directory
+du -sh /storage/bigdata/GARD
+
+# Check all subdirectories
+du -sh /storage/bigdata/*
 ```
 
-### Check current directory size
+### Quick summary commands
+
+**On nrcd-master**:
 ```bash
-du -sh
+echo "=== NRCD-MASTER Storage ===" && \
+df -h /lustre && \
+echo "" && \
+echo "=== Brainwave data ===" && \
+du -sh /lustre/external/connectome/brainwave/*
 ```
 
-### Check subdirectory sizes
+**On node3**:
 ```bash
-du -sh *
+echo "=== NODE3 Storage ===" && \
+df -h /storage/bigdata && \
+echo "" && \
+echo "=== GARD directory ===" && \
+du -sh /storage/bigdata/GARD 2>/dev/null || echo "Not created yet"
 ```
 
 ---
