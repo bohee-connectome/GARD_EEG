@@ -264,7 +264,7 @@ python3 -c "import pandas as pd; import os; import glob; df = pd.read_excel('/st
 
 ## 7. 다음 단계 (TODO)
 
-- [ ] LMDB 변환 (딥러닝 학습용)
+- [x] LMDB 변환 (딥러닝 학습용) → **완료 (2025-01-16)**
 - [ ] GARD 서버 임시 파일 정리 (`/home/connectome/gard_edf/` 삭제)
 - [ ] 변환 실패 13개 파일 원인 분석
 - [ ] Event 파일 누락 2개 확인
