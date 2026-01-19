@@ -1,0 +1,1525 @@
+object_idx,subject_id,eeg_years,pet_result_raw,suvr,label,label_name
+23,GM00023,2019,Negative (-) : Positive (+),"1.08,1.19",1,amyloid_positive
+25,GM00025,2021,Negative (-),,0,amyloid_negative
+27,GF00027,2019,Negative (-),0.97,0,amyloid_negative
+33,GF00033,,Negative (-) : Negative (-),1.02,0,amyloid_negative
+46,GF00046,,Negative (-),,0,amyloid_negative
+57,GF00057,2021,Negative (-),,0,amyloid_negative
+82,GM00082,2021,Negative (-),,0,amyloid_negative
+85,GF00085,,Positive (+),,1,amyloid_positive
+91,GM00091,2020,Positive (+),1.45,1,amyloid_positive
+94,GM00094,2020,Negative (-),1.02,0,amyloid_negative
+97,GM00097,2021,Negative (-),,0,amyloid_negative
+111,GM00111,2021,Negative (-),0.98,0,amyloid_negative
+117,GF00117,2020,Positive (+),1.21,1,amyloid_positive
+121,GF00121,"2019,2020",Positive (+) : Positive (+),1.56,1,amyloid_positive
+122,GM00122,"2019,2020",Positive (+) : Positive (+) : Positive (+),"1.27,1.33",1,amyloid_positive
+123,GF00123,"2019,2020,2021",Negative (-),1.04,0,amyloid_negative
+140,GM00140,2019,Negative (-),,0,amyloid_negative
+141,GF00141,2019,Negative (-) : Negative (-),1.04,0,amyloid_negative
+147,GF00147,2021,Negative (-),,0,amyloid_negative
+161,GF00161,2021,Negative (-),,0,amyloid_negative
+165,GM00165,2020,Negative (-),,0,amyloid_negative
+167,GF00167,,Negative (-),,0,amyloid_negative
+174,GM00174,"2019,2020",Positive (+) : Positive (+) : Positive (+),1.25,1,amyloid_positive
+185,GF00185,2021,Negative (-),1.01,0,amyloid_negative
+193,GF00193,,Negative (-),,0,amyloid_negative
+197,GM00197,2020,Negative (-) : Negative (-),0.97,0,amyloid_negative
+200,GM00200,2019,Negative (-),,0,amyloid_negative
+227,GM00227,2019,Positive (+),1.12,1,amyloid_positive
+228,GM00228,2021,Negative (-),1.01,0,amyloid_negative
+231,GM00231,,Negative (-),,0,amyloid_negative
+233,GM00233,2020,Positive (+),1.64,1,amyloid_positive
+237,GF00237,,Negative (-),,0,amyloid_negative
+239,GM00239,2020,Negative (-) : Negative (-),,0,amyloid_negative
+240,GM00240,"2019,2021",Positive (+) : Positive (+) : Positive (+),"1.06,1.01",1,amyloid_positive
+244,GF00244,"2019,2020",Positive (+),1.5,1,amyloid_positive
+245,GM00245,"2019,2020",Negative (-) : Negative (-),0.99,0,amyloid_negative
+246,GF00246,"2019,2020",Negative (-) : Negative (-) : Negative (-),1.06,0,amyloid_negative
+255,GF00255,"2019,2020,2021",Negative (-),1.03,0,amyloid_negative
+275,GM00275,"2019,2020",Positive (+) : Positive (+),1.23,1,amyloid_positive
+280,GF00280,2020,Negative (-),,0,amyloid_negative
+286,GM00286,"2019,2020",Negative (-) : Negative (-),1.03,0,amyloid_negative
+301,GM00301,2020,Negative (-),0.92,0,amyloid_negative
+317,GM00317,,Negative (-),,0,amyloid_negative
+319,GF00319,2020,Positive (+),1.18,1,amyloid_positive
+320,GM00320,2021,Negative (-),,0,amyloid_negative
+330,GM00330,2019,Positive (+) : Positive (+),1.05,1,amyloid_positive
+332,GM00332,"2019,2020",Positive (+),1.38,1,amyloid_positive
+333,GF00333,2020,Negative (-) : Negative (-),0.96,0,amyloid_negative
+339,GF00339,2019,Positive (+),,1,amyloid_positive
+343,GM00343,2020,Negative (-),,0,amyloid_negative
+350,GF00350,2019,Negative (-) : Negative (-),"1.13,0.96",0,amyloid_negative
+383,GM00383,2020,Positive (+),1.49,1,amyloid_positive
+388,GF00388,2019,Negative (-),1.07,0,amyloid_negative
+401,GF00401,,Negative (-) : Positive (+),1,1,amyloid_positive
+407,GM00407,2021,Negative (-),,0,amyloid_negative
+418,GF00418,2019,Positive (+),,1,amyloid_positive
+424,GM00424,2020,Negative (-) : Negative (-),0.95,0,amyloid_negative
+440,GF00440,2020,Negative (-),1.01,0,amyloid_negative
+442,GM00442,2021,Negative (-) : Positive (+),1.05,1,amyloid_positive
+459,GM00459,2020,Positive (+),1.09,1,amyloid_positive
+462,GM00462,,Negative (-),,0,amyloid_negative
+487,GF00487,2020,Negative (-),0.91,0,amyloid_negative
+522,GF00522,2020,Negative (-) : Negative (-),1.04,0,amyloid_negative
+525,GM00525,2019,Negative (-) : Positive (+),1.01,1,amyloid_positive
+530,GF00530,2019,Negative (-) : Negative (-),1.01,0,amyloid_negative
+538,GF00538,,Negative (-) : Negative (-),0.96,0,amyloid_negative
+539,GM00539,2021,Negative (-) : Negative (-),0.97,0,amyloid_negative
+562,GF00562,"2019,2020",Positive (+),1.23,1,amyloid_positive
+609,GF00609,2021,Negative (-) : Negative (-),"1.03,0.99",0,amyloid_negative
+612,GM00612,2021,Positive (+) : Positive (+),1.18,1,amyloid_positive
+616,GF00616,"2019,2020",Negative (-) : Negative (-),0.95,0,amyloid_negative
+622,GF00622,2020,Positive (+) : Positive (+),1.51,1,amyloid_positive
+655,GF00655,2021,Negative (-),,0,amyloid_negative
+670,GF00670,"2019,2020",Negative (-) : Negative (-),1.04,0,amyloid_negative
+676,GF00676,2020,Negative (-) : Negative (-),"0.95,0.92",0,amyloid_negative
+712,GF00712,2019,Negative (-),,0,amyloid_negative
+718,GF00718,2020,Negative (-) : Positive (+),"1.07,1.03",1,amyloid_positive
+724,GF00724,2020,Positive (+),,1,amyloid_positive
+726,GM00726,2021,Positive (+),,1,amyloid_positive
+738,GM00738,2020,Positive (+),1.29,1,amyloid_positive
+739,GF00739,2020,Positive (+) : Positive (+),,1,amyloid_positive
+742,GM00742,2019,Positive (+),1.27,1,amyloid_positive
+752,GF00752,2019,Negative (-),0.93,0,amyloid_negative
+772,GM00772,2021,Negative (-) : Negative (-),1.11,0,amyloid_negative
+777,GM00777,2019,Negative (-),,0,amyloid_negative
+807,GF00807,2020,Negative (-),,0,amyloid_negative
+810,GF00810,2020,Positive (+) : Positive (+),"1.21,1.15",1,amyloid_positive
+812,GF00812,2021,Negative (-),,0,amyloid_negative
+831,GM00831,2019,Positive (+),,1,amyloid_positive
+832,GF00832,2019,Negative (-) : Negative (-),0.95,0,amyloid_negative
+835,GF00835,2021,Negative (-),1.04,0,amyloid_negative
+841,GF00841,2020,Negative (-),,0,amyloid_negative
+844,GF00844,2020,Negative (-) : Negative (-),1.01,0,amyloid_negative
+852,GF00852,2021,Negative (-),1.04,0,amyloid_negative
+889,GF00889,2020,Negative (-) : Positive (+) : Positive (+),"1.08,1.12",1,amyloid_positive
+895,GF00895,2019,Negative (-) : Negative (-),0.88,0,amyloid_negative
+898,GF00898,2019,Positive (+),,1,amyloid_positive
+899,GF00899,2023,Negative (-),,0,amyloid_negative
+917,GM00917,2019,Negative (-),1,0,amyloid_negative
+924,GF00924,2020,Positive (+),1.06,1,amyloid_positive
+945,GF00945,2019,Negative (-),0.97,0,amyloid_negative
+948,GF00948,2021,Negative (-),1.03,0,amyloid_negative
+974,GF00974,2020,Negative (-) : Negative (-),1.09,0,amyloid_negative
+998,GM00998,2022,Negative (-),,0,amyloid_negative
+1005,GF01005,2022,Negative (-),,0,amyloid_negative
+1006,GM01006,2020,Negative (-) : Negative (-),"1.01,1.04",0,amyloid_negative
+1024,GM01024,2021,Negative (-),0.94,0,amyloid_negative
+1027,GM01027,2019,Positive (+) : Positive (+),1.36,1,amyloid_positive
+1038,GM01038,"2019,2021",Positive (+) : Positive (+),1.17,1,amyloid_positive
+1039,GF01039,,Negative (-) : Negative (-),1.06,0,amyloid_negative
+1092,GF01092,"2019,2020",Positive (+) : Positive (+) : Positive (+),"1.35,1.44",1,amyloid_positive
+1104,GF01104,2020,Negative (-),,0,amyloid_negative
+1113,GF01113,2020,Positive (+),1.26,1,amyloid_positive
+1122,GM01122,2020,Negative (-),,0,amyloid_negative
+1136,GF01136,2021,Negative (-),,0,amyloid_negative
+1137,GM01137,2021,Negative (-) : Negative (-),1.01,0,amyloid_negative
+1151,GF01151,"2019,2020",Positive (+) : Positive (+),1.06,1,amyloid_positive
+1158,GF01158,2021,Positive (+),,1,amyloid_positive
+1159,GM01159,2021,Negative (-),,0,amyloid_negative
+1171,GF01171,2019,Positive (+),1.21,1,amyloid_positive
+1181,GF01181,2019,Negative (-),1.08,0,amyloid_negative
+1198,GM01198,2022,Negative (-) : Negative (-),0.97,0,amyloid_negative
+1206,GF01206,"2019,2020",Positive (+) : Positive (+) : Positive (+),"1.48,1.26",1,amyloid_positive
+1207,GF01207,"2019,2021",Negative (-) : Negative (-),0.84,0,amyloid_negative
+1212,GF01212,"2019,2020",Positive (+) : Positive (+),1.28,1,amyloid_positive
+1231,GM01231,2019,Positive (+),1.15,1,amyloid_positive
+1238,GM01238,"2019,2020",Positive (+) : Positive (+),1.21,1,amyloid_positive
+1239,GF01239,,Negative (-),1.11,0,amyloid_negative
+1258,GM01258,2019,Positive (+),1.32,1,amyloid_positive
+1260,GM01260,"2019,2021",Negative (-),1.07,0,amyloid_negative
+1261,GM01261,2020,Positive (+) : Positive (+),"1.14,1.15",1,amyloid_positive
+1282,GF01282,2021,Positive (+),1.51,1,amyloid_positive
+1287,GM01287,"2019,2020",Positive (+) : Positive (+),1.24,1,amyloid_positive
+1288,GF01288,"2019,2020",Negative (-),,0,amyloid_negative
+1289,GM01289,2021,Negative (-) : Negative (-),1.07,0,amyloid_negative
+1293,GF01293,2021,Negative (-) : Negative (-),"0.85,0.98",0,amyloid_negative
+1330,GM01330,2020,Negative (-),1.01,0,amyloid_negative
+1331,GF01331,2020,Negative (-) : Positive (+) : Positive (+),"1.09,1.10",1,amyloid_positive
+1332,GM01332,2021,Negative (-),1.03,0,amyloid_negative
+1343,GM01343,2019,Negative (-),1.02,0,amyloid_negative
+1345,GM01345,2020,Negative (-) : Negative (-),0.99,0,amyloid_negative
+1346,GF01346,"2019,2021",Negative (-) : Negative (-),1.07,0,amyloid_negative
+1371,GM01371,2019,Negative (-) : Negative (-),0.93,0,amyloid_negative
+1377,GF01377,2021,Negative (-) : Negative (-),0.92,0,amyloid_negative
+1388,GF01388,2021,Negative (-),,0,amyloid_negative
+1412,GM01412,2020,Positive (+),,1,amyloid_positive
+1413,GF01413,2020,Negative (-) : Positive (+),1.15,1,amyloid_positive
+1424,GF01424,2020,Positive (+),1.19,1,amyloid_positive
+1430,GM01430,2020,Negative (-),1.01,0,amyloid_negative
+1439,GF01439,"2019,2020",Negative (-) : Negative (-),1.03,0,amyloid_negative
+1440,GM01440,"2019,2020",Negative (-),0.89,0,amyloid_negative
+1441,GF01441,2020,Negative (-),1.01,0,amyloid_negative
+1451,GF01451,2019,Negative (-),0.96,0,amyloid_negative
+1456,GF01456,2021,Negative (-),1.04,0,amyloid_negative
+1475,GM01475,2021,Negative (-) : Negative (-),1.04,0,amyloid_negative
+1482,GM01482,2019,Negative (-),0.98,0,amyloid_negative
+1500,GF01500,"2019,2021",Negative (-),0.97,0,amyloid_negative
+1519,GF01519,2019,Negative (-),0.89,0,amyloid_negative
+1539,GM01539,2020,Negative (-),,0,amyloid_negative
+1544,GM01544,2021,Negative (-),1.25,0,amyloid_negative
+1546,GF01546,"2019,2020",Positive (+) : Positive (+),1.01,1,amyloid_positive
+1548,GM01548,"2019,2020",Negative (-) : Negative (-),1.06,0,amyloid_negative
+1560,GF01560,2019,Negative (-),0.97,0,amyloid_negative
+1577,GM01577,2020,Positive (+),1.04,1,amyloid_positive
+1597,GF01597,2020,Positive (+),1.15,1,amyloid_positive
+1630,GF01630,2020,Positive (+),1.34,1,amyloid_positive
+1655,GF01655,2021,Negative (-),0.95,0,amyloid_negative
+1658,GM01658,2020,Negative (-),0.99,0,amyloid_negative
+1660,GF01660,2021,Negative (-) : Negative (-),1.08,0,amyloid_negative
+1666,GM01666,2019,Negative (-),,0,amyloid_negative
+1675,GF01675,"2019,2020",Positive (+) : Positive (+),"1.17,1.35",1,amyloid_positive
+1717,GF01717,2020,Negative (-) : Positive (+),1.12,1,amyloid_positive
+1719,GF01719,2020,Positive (+) : Positive (+),1.08,1,amyloid_positive
+1754,GM01754,,Negative (-),,0,amyloid_negative
+1766,GM01766,"2019,2021",Positive (+) : Positive (+),1.17,1,amyloid_positive
+1803,GM01803,"2019,2021",Negative (-) : Negative (-),"1.24,0.99",0,amyloid_negative
+1808,GF01808,2019,Positive (+) : Positive (+),1.44,1,amyloid_positive
+1836,GF01836,"2019,2020",Negative (-) : Negative (-),0.99,0,amyloid_negative
+1840,GF01840,2021,Negative (-),1.12,0,amyloid_negative
+1918,GF01918,2021,Negative (-) : Negative (-),"1.61,1.07",0,amyloid_negative
+1922,GM01922,2021,Positive (+),,1,amyloid_positive
+1937,GM01937,"2019,2021",Negative (-) : Negative (-),1.44,0,amyloid_negative
+1948,GF01948,2021,Negative (-) : Negative (-),"1.08,1.00",0,amyloid_negative
+1949,GF01949,2021,Negative (-),1.04,0,amyloid_negative
+1951,GM01951,2021,Negative (-) : Negative (-),"1.01,1.05",0,amyloid_negative
+1980,GF01980,2021,Negative (-),,0,amyloid_negative
+1984,GM01984,"2019,2020",Negative (-) : Negative (-),0.89,0,amyloid_negative
+1986,GM01986,"2019,2021",Negative (-) : Negative (-),0.94,0,amyloid_negative
+2045,GM02045,2021,Negative (-),,0,amyloid_negative
+2046,GF02046,"2019,2021",Negative (-) : Negative (-),"1.05,1.04",0,amyloid_negative
+2048,GF02048,2021,Negative (-) : Negative (-),1.02,0,amyloid_negative
+2117,GF02117,2020,Negative (-),0.99,0,amyloid_negative
+2123,GF02123,2020,Negative (-),1.08,0,amyloid_negative
+2181,GF02181,2022,Negative (-) : Negative (-),1.04,0,amyloid_negative
+2188,GM02188,2020,Positive (+),1.09,1,amyloid_positive
+2210,GM02210,2019,Negative (-),0.95,0,amyloid_negative
+2248,GF02248,2019,Negative (-),0.93,0,amyloid_negative
+2250,GM02250,2019,Positive (+),1.08,1,amyloid_positive
+2251,GF02251,2019,Negative (-),0.95,0,amyloid_negative
+2289,GF02289,2020,Positive (+) : Positive (+) : Positive (+) : Positive (+),"1.19,1.33",1,amyloid_positive
+2319,GM02319,,Negative (-),,0,amyloid_negative
+2321,GF02321,,Negative (-),,0,amyloid_negative
+2343,GF02343,2021,Negative (-),,0,amyloid_negative
+2415,GF02415,2020,Positive (+),1.36,1,amyloid_positive
+2458,GM02458,,Positive (+),,1,amyloid_positive
+2463,GM02463,"2019,2020",Positive (+),1.41,1,amyloid_positive
+2582,GF02582,"2019,2020",Negative (-) : Negative (-),0.94,0,amyloid_negative
+2602,GM02602,2021,Negative (-),0.97,0,amyloid_negative
+2605,GF02605,2021,Negative (-),1.03,0,amyloid_negative
+2653,GM02653,2020,Negative (-) : Negative (-),0.96,0,amyloid_negative
+2656,GM02656,"2019,2021",Positive (+),1.15,1,amyloid_positive
+2659,GM02659,"2019,2021",Negative (-),0.93,0,amyloid_negative
+2680,GF02680,"2019,2020",Negative (-),0.95,0,amyloid_negative
+2712,GM02712,"2019,2021",Negative (-) : Negative (-),1.02,0,amyloid_negative
+2737,GF02737,"2019,2020",Positive (+),1.34,1,amyloid_positive
+2755,GF02755,2021,Negative (-),1.01,0,amyloid_negative
+2757,GM02757,2021,Negative (-),0.98,0,amyloid_negative
+2776,GF02776,2019,Positive (+),1.22,1,amyloid_positive
+2796,GF02796,2022,Negative (-) : Negative (-),0.96,0,amyloid_negative
+2860,GM02860,2021,Negative (-),1.03,0,amyloid_negative
+2873,GF02873,2021,Positive (+),,1,amyloid_positive
+2897,GF02897,2019,Negative (-),0.96,0,amyloid_negative
+2901,GM02901,2020,Positive (+),1.31,1,amyloid_positive
+2907,GM02907,"2019,2021",Negative (-) : Negative (-),0.99,0,amyloid_negative
+2909,GF02909,2021,Negative (-) : Negative (-),0.96,0,amyloid_negative
+2928,GF02928,,Negative (-),,0,amyloid_negative
+2931,GF02931,2019,Negative (-),0.94,0,amyloid_negative
+2932,GF02932,2022,Positive (+),,1,amyloid_positive
+2939,GM02939,2021,Positive (+),0.97,1,amyloid_positive
+2946,GF02946,2021,Positive (+),,1,amyloid_positive
+2952,GM02952,"2019,2021",Positive (+) : Positive (+),1.49,1,amyloid_positive
+2967,GF02967,2019,Positive (+),1.07,1,amyloid_positive
+3042,GM03042,2019,Negative (-) : Positive (+),1.03,1,amyloid_positive
+3129,GF03129,2020,Negative (-) : Negative (-) : Negative (-),"1.11,1.21",0,amyloid_negative
+3153,GM03153,2020,Positive (+),1.34,1,amyloid_positive
+3157,GF03157,2019,Positive (+),1.44,1,amyloid_positive
+3190,GF03190,2020,Negative (-),1.11,0,amyloid_negative
+3215,GM03215,2021,Negative (-),0.94,0,amyloid_negative
+3284,GM03284,2020,Negative (-) : Negative (-),"0.92,0.97",0,amyloid_negative
+3310,GM03310,2019,Positive (+),1.02,1,amyloid_positive
+3317,GM03317,"2020,2021",Negative (-) : Positive (+) : Positive (+),"1.05,1.03",1,amyloid_positive
+3346,GM03346,2020,Negative (-) : Negative (-),1.09,0,amyloid_negative
+3377,GM03377,2019,Negative (-),1.01,0,amyloid_negative
+3408,GF03408,2022,Negative (-),,0,amyloid_negative
+3416,GF03416,,Negative (-),,0,amyloid_negative
+3447,GF03447,2020,Negative (-) : Positive (+),"1.14,1.24",1,amyloid_positive
+3479,GM03479,2021,Negative (-),,0,amyloid_negative
+3480,GF03480,2021,Positive (+) : Positive (+),,1,amyloid_positive
+3510,GM03510,2020,Negative (-) : Negative (-),0.98,0,amyloid_negative
+3538,GF03538,2021,Negative (-),,0,amyloid_negative
+3558,GF03558,2021,Negative (-),1.07,0,amyloid_negative
+3576,GM03576,"2019,2020",Negative (-) : Negative (-) : Negative (-),"0.94,0.94",0,amyloid_negative
+3581,GF03581,2019,Negative (-),1.02,0,amyloid_negative
+3585,GM03585,2019,Negative (-),,0,amyloid_negative
+3604,GM03604,2020,Negative (-),0.99,0,amyloid_negative
+3617,GM03617,2021,Negative (-) : Negative (-),"0.90,0.87",0,amyloid_negative
+3648,GF03648,2019,Negative (-),0.96,0,amyloid_negative
+3658,GM03658,2021,Negative (-),1.03,0,amyloid_negative
+3708,GF03708,2021,Negative (-),1.01,0,amyloid_negative
+3715,GM03715,2020,Negative (-),0.93,0,amyloid_negative
+3791,GF03791,2021,Negative (-),,0,amyloid_negative
+3819,GM03819,2021,Positive (+) : Positive (+),1.54,1,amyloid_positive
+3824,GF03824,"2019,2021",Positive (+),1.42,1,amyloid_positive
+3843,GF03843,2022,Negative (-),,0,amyloid_negative
+3887,GM03887,"2019,2020",Positive (+) : Positive (+),1.07,1,amyloid_positive
+3895,GF03895,2020,Negative (-),,0,amyloid_negative
+3930,GM03930,2020,Negative (-) : Negative (-) : Negative (-),"1.06,0.98",0,amyloid_negative
+3942,GF03942,2021,Positive (+) : Positive (+),1.22,1,amyloid_positive
+3950,GF03950,2020,Negative (-),1.07,0,amyloid_negative
+3974,GM03974,2019,Positive (+),1.31,1,amyloid_positive
+3983,GF03983,2021,Negative (-),,0,amyloid_negative
+3999,GF03999,2020,Negative (-) : Negative (-),1.12,0,amyloid_negative
+4000,GM04000,2020,Negative (-) : Negative (-),1.24,0,amyloid_negative
+4003,GF04003,2021,Negative (-),,0,amyloid_negative
+4009,GM04009,2020,Positive (+) : Positive (+),1.38,1,amyloid_positive
+4010,GM04010,"2019,2020",Positive (+),1.99,1,amyloid_positive
+4015,GM04015,"2019,2020",Positive (+) : Positive (+),1.29,1,amyloid_positive
+4031,GF04031,2020,Negative (-),0.95,0,amyloid_negative
+4064,GM04064,2020,Positive (+),1.38,1,amyloid_positive
+4065,GF04065,2020,Positive (+),1.36,1,amyloid_positive
+4066,GF04066,2021,Positive (+),1.45,1,amyloid_positive
+4098,GM04098,2020,Positive (+) : Positive (+) : Positive (+),1.14,1,amyloid_positive
+4105,GF04105,"2019,2020",Positive (+),1.37,1,amyloid_positive
+4111,GM04111,2019,Positive (+) : Positive (+) : Positive (+),"1.26,1.27",1,amyloid_positive
+4129,GM04129,2020,Negative (-),0.93,0,amyloid_negative
+4132,GF04132,"2020,2021",Negative (-) : Negative (-),0.99,0,amyloid_negative
+4149,GF04149,2022,Positive (+),,1,amyloid_positive
+4157,GF04157,2021,Negative (-) : Negative (-),"1.03,1.00",0,amyloid_negative
+4187,GM04187,"2019,2020",Negative (-),0.88,0,amyloid_negative
+4192,GM04192,2019,Negative (-) : Negative (-),0.95,0,amyloid_negative
+4193,GF04193,2019,Negative (-) : Negative (-),1.11,0,amyloid_negative
+4240,GM04240,2021,Positive (+),1.35,1,amyloid_positive
+4283,GF04283,"2019,2020",Negative (-),1.06,0,amyloid_negative
+4311,GF04311,2020,Negative (-),0.98,0,amyloid_negative
+4320,GM04320,2020,Positive (+),1.12,1,amyloid_positive
+4337,GM04337,"2019,2021",Positive (+) : Positive (+),1.12,1,amyloid_positive
+4352,GM04352,2021,Negative (-) : Negative (-),"1.10,0.95",0,amyloid_negative
+4371,GF04371,2020,Positive (+) : Positive (+),1.67,1,amyloid_positive
+4400,GM04400,,Negative (-),,0,amyloid_negative
+4404,GM04404,2019,Negative (-),1.03,0,amyloid_negative
+4458,GM04458,2021,Negative (-),,0,amyloid_negative
+4461,GF04461,2022,Positive (+),,1,amyloid_positive
+4465,GM04465,2021,Negative (-),1.06,0,amyloid_negative
+4480,GF04480,2020,Negative (-),0.97,0,amyloid_negative
+4499,GF04499,"2019,2020",Positive (+) : Positive (+),1.04,1,amyloid_positive
+4564,GM04564,"2019,2021",Negative (-) : Negative (-),1.04,0,amyloid_negative
+4569,GF04569,2019,Negative (-),,0,amyloid_negative
+4604,GM04604,2021,Negative (-) : Negative (-),1.15,0,amyloid_negative
+4605,GM04605,2019,Negative (-),,0,amyloid_negative
+4649,GM04649,"2020,2021",Negative (-),1.04,0,amyloid_negative
+4650,GF04650,"2020,2021",Negative (-),1,0,amyloid_negative
+4687,GM04687,2022,Positive (+) : Positive (+) : Positive (+) : Positive (+),"1.18,1.45,1.28",1,amyloid_positive
+4688,GM04688,,Positive (+) : Positive (+) : Positive (+) : Positive (+),"1.18,1.20,1.22",1,amyloid_positive
+4700,GM04700,2019,Negative (-),,0,amyloid_negative
+4782,GM04782,"2019,2020",Negative (-) : Negative (-),1.01,0,amyloid_negative
+4786,GF04786,"2019,2020",Positive (+) : Positive (+),1.1,1,amyloid_positive
+4812,GF04812,2020,Negative (-),,0,amyloid_negative
+4827,GM04827,2020,Negative (-) : Negative (-),"0.93,0.90",0,amyloid_negative
+4828,GF04828,2020,Negative (-) : Negative (-),0.99,0,amyloid_negative
+4851,GM04851,2019,Negative (-) : Negative (-),1.12,0,amyloid_negative
+4863,GF04863,2022,Negative (-),,0,amyloid_negative
+4904,GM04904,2022,Positive (+),,1,amyloid_positive
+4909,GF04909,2020,Positive (+) : Positive (+),1.1,1,amyloid_positive
+4910,GM04910,2019,Negative (-),1.01,0,amyloid_negative
+4923,GF04923,2019,Negative (-),1.08,0,amyloid_negative
+4935,GF04935,2022,Negative (-),1.05,0,amyloid_negative
+4944,GF04944,2021,Negative (-),,0,amyloid_negative
+4965,GF04965,2020,Negative (-),0.95,0,amyloid_negative
+4974,GM04974,2021,Positive (+),,1,amyloid_positive
+4981,GM04981,"2019,2020",Positive (+),1.18,1,amyloid_positive
+5036,GF05036,"2019,2020",Negative (-),0.96,0,amyloid_negative
+5046,GF05046,,Positive (+),,1,amyloid_positive
+5054,GF05054,,Negative (-),,0,amyloid_negative
+5064,GF05064,2019,Negative (-),1.3,0,amyloid_negative
+5090,GF05090,2022,Negative (-),,0,amyloid_negative
+5127,GM05127,2019,Negative (-),1.01,0,amyloid_negative
+5156,GF05156,2020,Positive (+),1.72,1,amyloid_positive
+5163,GM05163,2020,Positive (+) : Positive (+),1.04,1,amyloid_positive
+5169,GF05169,,Positive (+),,1,amyloid_positive
+5207,GF05207,,Negative (-),,0,amyloid_negative
+5208,GM05208,2023,Negative (-),,0,amyloid_negative
+5243,GF05243,2019,Negative (-),,0,amyloid_negative
+5272,GF05272,2022,Negative (-),,0,amyloid_negative
+5276,GF05276,2020,Negative (-) : Negative (-) : Negative (-),"1.03,0.95",0,amyloid_negative
+5287,GF05287,,Negative (-),1.14,0,amyloid_negative
+5289,GF05289,2019,Negative (-),0.93,0,amyloid_negative
+5414,GM05414,"2019,2020",Negative (-) : Negative (-),1,0,amyloid_negative
+5415,GF05415,"2019,2020",Negative (-) : Positive (+) : Positive (+),"1.32,1.25",1,amyloid_positive
+5421,GF05421,2021,Positive (+),1.6,1,amyloid_positive
+5422,GM05422,2019,Negative (-) : Negative (-),0.95,0,amyloid_negative
+5441,GF05441,2020,Negative (-) : Negative (-),"1.04,1.04",0,amyloid_negative
+5443,GF05443,"2020,2023",Negative (-) : Positive (+),1,1,amyloid_positive
+5445,GM05445,2020,Negative (-) : Negative (-),0.94,0,amyloid_negative
+5478,GF05478,2020,Negative (-),0.9,0,amyloid_negative
+5479,GM05479,2020,Negative (-) : Negative (-),0.94,0,amyloid_negative
+5503,GM05503,2020,Negative (-),1.04,0,amyloid_negative
+5544,GM05544,2020,Negative (-),,0,amyloid_negative
+5549,GF05549,2020,Negative (-),,0,amyloid_negative
+5602,GM05602,2020,Negative (-),1.01,0,amyloid_negative
+5610,GF05610,"2019,2020",Positive (+) : Positive (+) : Positive (+),0.99,1,amyloid_positive
+5632,GM05632,"2019,2020",Positive (+),1.14,1,amyloid_positive
+5644,GF05644,2020,Negative (-) : Positive (+) : Positive (+),1.03,1,amyloid_positive
+5646,GF05646,2020,Negative (-) : Positive (+) : Positive (+),1.06,1,amyloid_positive
+5647,GF05647,2020,Negative (-) : Positive (+),1.12,1,amyloid_positive
+5648,GM05648,"2019,2020",Positive (+) : Positive (+) : Positive (+),"1.28,1.35",1,amyloid_positive
+5657,GF05657,,Positive (+) : Positive (+),1.44,1,amyloid_positive
+5668,GF05668,2020,Positive (+) : Positive (+),1.26,1,amyloid_positive
+5669,GF05669,"2019,2020",Positive (+),1.4,1,amyloid_positive
+5694,GM05694,2020,Negative (-),0.99,0,amyloid_negative
+5710,GF05710,2019,Positive (+),,1,amyloid_positive
+5740,GF05740,2019,Negative (-) : Negative (-),0.96,0,amyloid_negative
+5799,GF05799,,Negative (-) : Negative (-),1.06,0,amyloid_negative
+5836,GM05836,2020,Negative (-) : Negative (-),"1.03,1.01",0,amyloid_negative
+5838,GF05838,2020,Negative (-) : Negative (-),0.99,0,amyloid_negative
+5909,GM05909,"2019,2020",Positive (+) : Positive (+),1.2,1,amyloid_positive
+5915,GF05915,2020,Negative (-) : Negative (-),1.03,0,amyloid_negative
+5935,GF05935,2020,Positive (+),1.47,1,amyloid_positive
+5950,GF05950,2019,Negative (-),1.09,0,amyloid_negative
+5953,GF05953,2020,Positive (+) : Positive (+),1.27,1,amyloid_positive
+5963,GF05963,2019,Positive (+),1.33,1,amyloid_positive
+5970,GF05970,,Positive (+),,1,amyloid_positive
+5971,GM05971,2021,Positive (+),,1,amyloid_positive
+5977,GM05977,2020,Negative (-),0.97,0,amyloid_negative
+5980,GM05980,"2019,2020",Positive (+) : Positive (+),0.85,1,amyloid_positive
+5981,GF05981,2020,Negative (-),1.2,0,amyloid_negative
+6010,GF06010,2020,Negative (-) : Negative (-),1,0,amyloid_negative
+6016,GM06016,"2020,2021",Positive (+) : Positive (+),1.17,1,amyloid_positive
+6054,GM06054,2019,Positive (+) : Positive (+),1.12,1,amyloid_positive
+6055,GF06055,2022,Negative (-),,0,amyloid_negative
+6081,GF06081,"2019,2021",Negative (-),,0,amyloid_negative
+6134,GM06134,2020,Negative (-) : Positive (+) : Positive (+),"1.12,1.21",1,amyloid_positive
+6145,GF06145,2020,Negative (-),,0,amyloid_negative
+6152,GF06152,2021,Negative (-),,0,amyloid_negative
+6226,GF06226,2021,Negative (-),,0,amyloid_negative
+6229,GF06229,,Negative (-),,0,amyloid_negative
+6256,GF06256,2019,Negative (-),0.93,0,amyloid_negative
+6257,GM06257,"2019,2021",Negative (-) : Negative (-),0.98,0,amyloid_negative
+6259,GM06259,2019,Negative (-),0.95,0,amyloid_negative
+6301,GF06301,,Negative (-),,0,amyloid_negative
+6315,GM06315,2021,Negative (-),,0,amyloid_negative
+6327,GM06327,2020,Negative (-),0.95,0,amyloid_negative
+6346,GM06346,"2019,2021",Positive (+) : Positive (+),1.21,1,amyloid_positive
+6366,GM06366,2022,Negative (-) : Positive (+),1.23,1,amyloid_positive
+6387,GF06387,2019,Positive (+),1.29,1,amyloid_positive
+6409,GM06409,2021,Negative (-),,0,amyloid_negative
+6464,GF06464,2020,Negative (-),1.03,0,amyloid_negative
+6511,GF06511,2020,Positive (+) : Positive (+),1.38,1,amyloid_positive
+6512,GM06512,2019,Positive (+),1.32,1,amyloid_positive
+6546,GF06546,2019,Negative (-) : Negative (-),0.98,0,amyloid_negative
+6548,GM06548,2019,Positive (+) : Positive (+),1.04,1,amyloid_positive
+6553,GF06553,2019,Negative (-) : Negative (-),0.95,0,amyloid_negative
+6629,GF06629,2019,Positive (+),1.06,1,amyloid_positive
+6631,GM06631,"2019,2021",Positive (+),"1.42,1.37",1,amyloid_positive
+6633,GF06633,2020,Positive (+) : Positive (+),1.42,1,amyloid_positive
+6635,GM06635,2021,Negative (-),0.94,0,amyloid_negative
+6648,GM06648,2021,Negative (-),,0,amyloid_negative
+6653,GM06653,2022,Negative (-),,0,amyloid_negative
+6661,GF06661,2021,Negative (-),1.07,0,amyloid_negative
+6668,GF06668,2021,Positive (+),,1,amyloid_positive
+6695,GF06695,2020,Negative (-),,0,amyloid_negative
+6696,GM06696,2020,Negative (-),,0,amyloid_negative
+6699,GM06699,2019,Positive (+) : Positive (+),1.19,1,amyloid_positive
+6701,GF06701,2020,Negative (-),0.95,0,amyloid_negative
+6713,GF06713,2019,Negative (-),1.11,0,amyloid_negative
+6729,GM06729,2019,Negative (-),0.93,0,amyloid_negative
+6768,GM06768,2021,Negative (-),,0,amyloid_negative
+6769,GF06769,2021,Negative (-) : Negative (-),,0,amyloid_negative
+6797,GF06797,2021,Negative (-),,0,amyloid_negative
+6806,GF06806,2020,Negative (-),0.94,0,amyloid_negative
+6808,GF06808,2020,Positive (+),1.43,1,amyloid_positive
+6823,GM06823,,Negative (-),,0,amyloid_negative
+6849,GM06849,2020,Positive (+) : Positive (+),1.15,1,amyloid_positive
+6868,GM06868,"2019,2020",Positive (+) : Positive (+),1.13,1,amyloid_positive
+6869,GF06869,"2019,2020",Negative (-) : Positive (+),1.07,1,amyloid_positive
+6945,GM06945,2020,Negative (-),,0,amyloid_negative
+6979,GM06979,2020,Positive (+),1.49,1,amyloid_positive
+7012,GF07012,2022,Negative (-),,0,amyloid_negative
+7025,GM07025,2021,Positive (+) : Positive (+),1.12,1,amyloid_positive
+7067,GM07067,2019,Positive (+) : Positive (+) : Positive (+),1.03,1,amyloid_positive
+7089,GM07089,"2019,2020",Positive (+) : Positive (+),1.18,1,amyloid_positive
+7132,GM07132,2021,Negative (-),,0,amyloid_negative
+7133,GF07133,2021,Positive (+),,1,amyloid_positive
+7149,GM07149,"2019,2020",Positive (+) : Positive (+),1.03,1,amyloid_positive
+7151,GF07151,2021,Negative (-),1.02,0,amyloid_negative
+7152,GF07152,2020,Negative (-) : Positive (+) : Positive (+),"1.01,0.97",1,amyloid_positive
+7157,GF07157,2019,Negative (-),0.93,0,amyloid_negative
+7233,GM07233,2019,Positive (+),1.15,1,amyloid_positive
+7238,GM07238,2021,Negative (-),,0,amyloid_negative
+7277,GF07277,,Negative (-),,0,amyloid_negative
+7278,GM07278,,Negative (-),,0,amyloid_negative
+7287,GM07287,2020,Negative (-) : Negative (-),"0.93,0.95",0,amyloid_negative
+7290,GM07290,2020,Negative (-),,0,amyloid_negative
+7293,GF07293,2021,Positive (+),,1,amyloid_positive
+7332,GM07332,,Positive (+),,1,amyloid_positive
+7343,GF07343,2020,Positive (+),,1,amyloid_positive
+7351,GM07351,2020,Positive (+) : Positive (+),1.57,1,amyloid_positive
+7360,GM07360,2019,Positive (+),1.32,1,amyloid_positive
+7361,GM07361,2020,Positive (+),1.54,1,amyloid_positive
+7362,GF07362,2020,Negative (-),,0,amyloid_negative
+7370,GF07370,"2019,2020",Positive (+) : Positive (+) : Positive (+),1.35,1,amyloid_positive
+7381,GF07381,"2020,2021",Negative (-) : Positive (+),"1.04,1.25",1,amyloid_positive
+7409,GF07409,2021,Negative (-),,0,amyloid_negative
+7410,GM07410,2021,Negative (-),,0,amyloid_negative
+7412,GF07412,2019,Negative (-),0.97,0,amyloid_negative
+7417,GM07417,2020,Negative (-),1.05,0,amyloid_negative
+7429,GM07429,2019,Positive (+),1.11,1,amyloid_positive
+7446,GF07446,2022,Negative (-),,0,amyloid_negative
+7472,GF07472,2019,Positive (+),1.45,1,amyloid_positive
+7487,GF07487,"2019,2021",Negative (-),,0,amyloid_negative
+7501,GM07501,2021,Negative (-) : Negative (-),0.95,0,amyloid_negative
+7521,GM07521,2020,Negative (-) : Negative (-),1.07,0,amyloid_negative
+7523,GF07523,2020,Negative (-),0.97,0,amyloid_negative
+7544,GM07544,2021,Negative (-),,0,amyloid_negative
+7545,GF07545,2021,Negative (-),,0,amyloid_negative
+7561,GF07561,2020,Negative (-),0.96,0,amyloid_negative
+7572,GF07572,2019,Negative (-),0.94,0,amyloid_negative
+7574,GM07574,2019,Positive (+) : Positive (+),1.12,1,amyloid_positive
+7580,GF07580,2019,Positive (+) : Positive (+),1.23,1,amyloid_positive
+7583,GF07583,2021,Negative (-) : Negative (-),1.07,0,amyloid_negative
+7645,GM07645,2019,Positive (+),1.33,1,amyloid_positive
+7654,GM07654,"2020,2021",Negative (-) : Positive (+),,1,amyloid_positive
+7655,GF07655,2020,Negative (-),0.97,0,amyloid_negative
+7676,GF07676,,Negative (-) : Negative (-),1.04,0,amyloid_negative
+7686,GM07686,"2019,2021",Positive (+) : Positive (+),1.43,1,amyloid_positive
+7687,GF07687,2021,Negative (-),,0,amyloid_negative
+7691,GM07691,2019,Negative (-),0.93,0,amyloid_negative
+7693,GF07693,2020,Negative (-) : Negative (-),"1.02,1.04",0,amyloid_negative
+7712,GF07712,2020,Negative (-),1.02,0,amyloid_negative
+7715,GM07715,2020,Negative (-) : Negative (-),0.94,0,amyloid_negative
+7730,GM07730,2020,Positive (+),1.55,1,amyloid_positive
+7735,GM07735,2019,Positive (+),1.94,1,amyloid_positive
+7743,GM07743,"2019,2020",Positive (+) : Positive (+) : Positive (+),1.38,1,amyloid_positive
+7778,GM07778,2021,Negative (-) : Negative (-),,0,amyloid_negative
+7790,GF07790,2020,Positive (+),1.23,1,amyloid_positive
+7802,GF07802,2020,Negative (-) : Negative (-),"1.38,1.07",0,amyloid_negative
+7829,GF07829,,Negative (-),,0,amyloid_negative
+7844,GM07844,2020,Positive (+),1.12,1,amyloid_positive
+7849,GM07849,"2019,2020",Positive (+) : Positive (+) : Positive (+),1.11,1,amyloid_positive
+7855,GM07855,2021,Positive (+),1.25,1,amyloid_positive
+7874,GF07874,2019,Negative (-),0.9,0,amyloid_negative
+7914,GF07914,2019,Negative (-) : Negative (-),0.9,0,amyloid_negative
+7918,GM07918,2021,Positive (+),1.53,1,amyloid_positive
+7923,GM07923,2020,Positive (+),0.94,1,amyloid_positive
+7954,GF07954,2020,Negative (-),,0,amyloid_negative
+7998,GF07998,2020,Negative (-),1.11,0,amyloid_negative
+8013,GF08013,,Negative (-),1.07,0,amyloid_negative
+8058,GF08058,"2019,2020",Positive (+),1.14,1,amyloid_positive
+8074,GF08074,2020,Positive (+),1.02,1,amyloid_positive
+8099,GM08099,2020,Negative (-) : Negative (-),1.06,0,amyloid_negative
+8105,GF08105,"2020,2021",Positive (+) : Positive (+),1.53,1,amyloid_positive
+8116,GF08116,"2019,2020",Positive (+),1.23,1,amyloid_positive
+8117,GM08117,2020,Positive (+) : Positive (+),1.32,1,amyloid_positive
+8126,GF08126,2020,Negative (-) : Negative (-),1,0,amyloid_negative
+8127,GM08127,2021,Negative (-),0.87,0,amyloid_negative
+8128,GM08128,2020,Negative (-) : Negative (-) : Negative (-),"0.96,0.93",0,amyloid_negative
+8129,GM08129,2020,Negative (-) : Negative (-),0.91,0,amyloid_negative
+8136,GF08136,2020,Positive (+),1.12,1,amyloid_positive
+8137,GM08137,2020,Negative (-),0.99,0,amyloid_negative
+8141,GM08141,"2019,2020",Negative (-) : Negative (-),1.03,0,amyloid_negative
+8143,GF08143,"2019,2020",Positive (+) : Positive (+),1.59,1,amyloid_positive
+8147,GM08147,2020,Negative (-),0.97,0,amyloid_negative
+8151,GM08151,2021,Negative (-),,0,amyloid_negative
+8152,GM08152,2020,Positive (+),1.55,1,amyloid_positive
+8154,GF08154,2022,Negative (-),1.01,0,amyloid_negative
+8157,GM08157,2021,Negative (-) : Negative (-),0.99,0,amyloid_negative
+8158,GF08158,2021,Positive (+),,1,amyloid_positive
+8179,GF08179,2019,Positive (+),1.65,1,amyloid_positive
+8180,GM08180,2019,Negative (-),0.9,0,amyloid_negative
+8182,GM08182,2019,Positive (+) : Positive (+),1.06,1,amyloid_positive
+8186,GM08186,2019,Negative (-) : Negative (-),1.07,0,amyloid_negative
+8187,GF08187,,Negative (-) : Negative (-),1.07,0,amyloid_negative
+8192,GM08192,"2020,2021",Positive (+) : Positive (+),1.28,1,amyloid_positive
+8199,GF08199,2020,Negative (-),1.11,0,amyloid_negative
+8218,GM08218,2019,Positive (+),0.98,1,amyloid_positive
+8254,GM08254,"2020,2021",Negative (-) : Negative (-),0.91,0,amyloid_negative
+8260,GM08260,2020,Negative (-),1.03,0,amyloid_negative
+8261,GF08261,2020,Positive (+),1.39,1,amyloid_positive
+8270,GF08270,"2020,2021",Positive (+) : Positive (+),,1,amyloid_positive
+8277,GF08277,,Negative (-) : Negative (-),0.96,0,amyloid_negative
+8278,GM08278,"2020,2021",Positive (+) : Positive (+) : Positive (+) : Positive (+),1.1,1,amyloid_positive
+8279,GF08279,2020,Negative (-),,0,amyloid_negative
+8285,GF08285,2020,Positive (+),1.08,1,amyloid_positive
+8293,GF08293,"2020,2021",Positive (+) : Positive (+),1.21,1,amyloid_positive
+8295,GM08295,2020,Negative (-),0.93,0,amyloid_negative
+8296,GF08296,2020,Negative (-),,0,amyloid_negative
+8301,GM08301,2020,Positive (+),1.08,1,amyloid_positive
+8318,GF08318,2019,Positive (+),1.09,1,amyloid_positive
+8322,GM08322,2019,Positive (+),1.37,1,amyloid_positive
+8332,GM08332,"2020,2021",Positive (+) : Positive (+),1.3,1,amyloid_positive
+8333,GM08333,"2019,2020",Positive (+) : Negative (-),0.97,0,amyloid_negative
+8338,GF08338,2021,Positive (+),,1,amyloid_positive
+8339,GF08339,,Negative (-),,0,amyloid_negative
+8359,GM08359,2022,Negative (-) : Negative (-),"1.14,1.19",0,amyloid_negative
+8374,GF08374,2020,Negative (-),1.08,0,amyloid_negative
+8438,GM08438,2020,Negative (-),0.89,0,amyloid_negative
+8476,GM08476,2021,Negative (-),,0,amyloid_negative
+8515,GF08515,2021,Negative (-),0.94,0,amyloid_negative
+8560,GM08560,2022,Negative (-),,0,amyloid_negative
+8561,GF08561,2022,Negative (-),,0,amyloid_negative
+8597,GF08597,2021,Negative (-),1.12,0,amyloid_negative
+8711,GF08711,2020,Negative (-),0.97,0,amyloid_negative
+8713,GM08713,,Positive (+),,1,amyloid_positive
+8730,GF08730,2019,Negative (-),1.05,0,amyloid_negative
+8734,GF08734,2022,Negative (-),,0,amyloid_negative
+8735,GM08735,2022,Positive (+),,1,amyloid_positive
+8767,GF08767,2022,Negative (-),1.01,0,amyloid_negative
+8841,GM08841,2020,Negative (-),,0,amyloid_negative
+8861,GM08861,2021,Negative (-),,0,amyloid_negative
+8864,GM08864,"2019,2021",Positive (+),2.41,1,amyloid_positive
+8865,GF08865,2019,Negative (-),1.11,0,amyloid_negative
+8869,GF08869,,Negative (-),,0,amyloid_negative
+8883,GF08883,2022,Negative (-),,0,amyloid_negative
+8902,GM08902,2022,Negative (-),1.01,0,amyloid_negative
+8926,GM08926,2019,Negative (-),1.05,0,amyloid_negative
+8981,GF08981,2021,Negative (-),1.04,0,amyloid_negative
+8982,GM08982,2020,Negative (-),0.97,0,amyloid_negative
+9011,GF09011,2020,Negative (-) : Negative (-),1.03,0,amyloid_negative
+9019,GF09019,"2019,2021",Negative (-) : Positive (+),"1.09,1.12",1,amyloid_positive
+9028,GF09028,2021,Negative (-) : Negative (-),0.91,0,amyloid_negative
+9030,GM09030,2019,Negative (-),0.98,0,amyloid_negative
+9034,GF09034,2020,Negative (-),1.01,0,amyloid_negative
+9048,GF09048,2019,Negative (-),1.05,0,amyloid_negative
+9057,GM09057,2021,Negative (-),0.88,0,amyloid_negative
+9093,GM09093,"2019,2021",Positive (+),1.56,1,amyloid_positive
+9097,CF09097,2022,Negative (-),,0,amyloid_negative
+9099,GM09099,2021,Negative (-),,0,amyloid_negative
+9103,GF09103,2019,Negative (-),1.09,0,amyloid_negative
+9109,GM09109,2020,Negative (-),1.02,0,amyloid_negative
+9112,GM09112,2020,Positive (+),1.38,1,amyloid_positive
+9115,GM09115,"2019,2020,2021",Positive (+),1.08,1,amyloid_positive
+9123,GF09123,2020,Positive (+) : Positive (+),1.14,1,amyloid_positive
+9137,GM09137,2020,Positive (+) : Positive (+),1.26,1,amyloid_positive
+9138,GF09138,2019,Negative (-),1.03,0,amyloid_negative
+9140,GF09140,2020,Negative (-),1.04,0,amyloid_negative
+9142,GF09142,2019,Negative (-),0.98,0,amyloid_negative
+9157,GM09157,2019,Negative (-),0.99,0,amyloid_negative
+9173,GF09173,2021,Negative (-),,0,amyloid_negative
+9206,GM09206,2019,Positive (+),1.14,1,amyloid_positive
+9210,GM09210,2021,Negative (-),,0,amyloid_negative
+9217,GF09217,"2019,2021",Positive (+) : Positive (+),1.18,1,amyloid_positive
+9219,GM09219,2021,Negative (-),,0,amyloid_negative
+9220,GF09220,"2019,2021",Negative (-),0.98,0,amyloid_negative
+9222,GM09222,2020,Positive (+),1.66,1,amyloid_positive
+9240,GM09240,2019,Positive (+) : Positive (+),1.29,1,amyloid_positive
+9241,GM09241,2020,Positive (+) : Positive (+) : Positive (+),1.42,1,amyloid_positive
+9246,GF09246,2020,Negative (-),1.02,0,amyloid_negative
+9273,GF09273,,Negative (-) : Negative (-),0.89,0,amyloid_negative
+9281,GF09281,2019,Negative (-),0.92,0,amyloid_negative
+9288,GF09288,"2020,2021",Negative (-),,0,amyloid_negative
+9289,GM09289,"2020,2021",Positive (+),,1,amyloid_positive
+9291,GF09291,2019,Negative (-),1.08,0,amyloid_negative
+9301,GF09301,2020,Positive (+) : Positive (+),1.26,1,amyloid_positive
+9302,GF09302,2020,Positive (+) : Positive (+),,1,amyloid_positive
+9304,GM09304,2020,Negative (-) : Negative (-),0.89,0,amyloid_negative
+9310,GF09310,"2019,2021",Positive (+),1.13,1,amyloid_positive
+9330,GM09330,2019,Negative (-),0.93,0,amyloid_negative
+9333,GF09333,2019,Negative (-),0.99,0,amyloid_negative
+9334,GM09334,2019,Negative (-),1.06,0,amyloid_negative
+9336,GF09336,2019,Negative (-),0.93,0,amyloid_negative
+9341,GF09341,2019,Negative (-) : Negative (-),0.89,0,amyloid_negative
+9361,GM09361,2020,Negative (-),1,0,amyloid_negative
+9378,GM09378,2020,Positive (+),1.1,1,amyloid_positive
+9396,GM09396,2021,Negative (-),0.9,0,amyloid_negative
+9409,GM09409,2020,Positive (+),1.08,1,amyloid_positive
+9448,GF09448,"2019,2021",Negative (-),0.93,0,amyloid_negative
+9458,GM09458,2021,Negative (-),0.86,0,amyloid_negative
+9506,GF09506,2019,Negative (-),0.96,0,amyloid_negative
+9508,GF09508,2019,Negative (-),0.96,0,amyloid_negative
+9513,GF09513,2019,Negative (-),1.05,0,amyloid_negative
+9528,GF09528,"2019,2021",Positive (+) : Positive (+),1.17,1,amyloid_positive
+9532,GF09532,2020,Negative (-),1,0,amyloid_negative
+9543,GM09543,2019,Negative (-) : Negative (-),,0,amyloid_negative
+9557,GM09557,2020,Positive (+),1.15,1,amyloid_positive
+9576,GF09576,2020,Positive (+),0.98,1,amyloid_positive
+9579,GM09579,2020,Negative (-),1.01,0,amyloid_negative
+9633,GM09633,2020,Positive (+) : Positive (+),1.47,1,amyloid_positive
+9634,GF09634,2020,Negative (-) : Negative (-),1.04,0,amyloid_negative
+9650,GF09650,2019,Negative (-),1.04,0,amyloid_negative
+9656,GF09656,2021,Positive (+),1.27,1,amyloid_positive
+9668,GF09668,"2019,2020",Positive (+),1.01,1,amyloid_positive
+9703,GM09703,2020,Negative (-),0.87,0,amyloid_negative
+9705,GM09705,2019,Positive (+),1.08,1,amyloid_positive
+9725,GM09725,2019,Negative (-),0.82,0,amyloid_negative
+9736,GM09736,"2020,2021",Positive (+),0.95,1,amyloid_positive
+9743,GM09743,2020,Positive (+) : Negative (-),0.91,0,amyloid_negative
+9760,GM09760,2019,Positive (+),1.21,1,amyloid_positive
+9761,GF09761,2020,Positive (+),1.49,1,amyloid_positive
+9764,GF09764,2019,Negative (-),0.91,0,amyloid_negative
+9776,GM09776,"2019,2020,2023",Positive (+) : Positive (+),0.96,1,amyloid_positive
+9802,GM09802,2019,Positive (+) : Positive (+),1.38,1,amyloid_positive
+9828,GF09828,2019,Negative (-),0.92,0,amyloid_negative
+9832,GM09832,"2019,2020",Positive (+),1.04,1,amyloid_positive
+9846,GM09846,2019,Negative (-),0.85,0,amyloid_negative
+9866,GF09866,2019,Negative (-),1.17,0,amyloid_negative
+9868,GF09868,2019,Positive (+),1.44,1,amyloid_positive
+9875,GM09875,2019,Negative (-),0.97,0,amyloid_negative
+9880,GM09880,,Positive (+),,1,amyloid_positive
+9881,GF09881,2020,Negative (-),,0,amyloid_negative
+9884,GM09884,2019,Negative (-) : Negative (-),0.93,0,amyloid_negative
+9886,GF09886,2020,Positive (+) : Negative (-),,0,amyloid_negative
+9894,GF09894,2019,Negative (-) : Negative (-),0.78,0,amyloid_negative
+9896,GM09896,2020,Negative (-),0.93,0,amyloid_negative
+9916,GF09916,2019,Positive (+),1.45,1,amyloid_positive
+9930,GM09930,2019,Negative (-),0.89,0,amyloid_negative
+9935,GM09935,2019,Positive (+),1.19,1,amyloid_positive
+9945,GF09945,2021,Negative (-),,0,amyloid_negative
+9947,GF09947,2021,Negative (-),,0,amyloid_negative
+9962,GM09962,"2019,2020,2021",Positive (+) : Positive (+) : Positive (+),1.14,1,amyloid_positive
+9963,GF09963,"2019,2020",Negative (-),0.92,0,amyloid_negative
+10012,GF10012,2019,Negative (-),0.86,0,amyloid_negative
+10014,GM10014,"2019,2020",Positive (+) : Positive (+),0.99,1,amyloid_positive
+10025,GM10025,2019,Negative (-) : Negative (-),0.95,0,amyloid_negative
+10028,GF10028,,Negative (-),,0,amyloid_negative
+10036,GM10036,2020,Negative (-),0.97,0,amyloid_negative
+10049,GM10049,2019,Negative (-),0.97,0,amyloid_negative
+10050,GF10050,2019,Negative (-),1.01,0,amyloid_negative
+10053,GF10053,2020,Negative (-),0.96,0,amyloid_negative
+10061,GM10061,"2019,2020",Positive (+),1.14,1,amyloid_positive
+10063,GF10063,2019,Negative (-),0.93,0,amyloid_negative
+10068,GF10068,"2019,2020",Negative (-),0.89,0,amyloid_negative
+10072,GF10072,"2019,2021",Positive (+) : Positive (+),1.01,1,amyloid_positive
+10073,GF10073,2021,Positive (+),,1,amyloid_positive
+10074,GM10074,2021,Negative (-),,0,amyloid_negative
+10081,GF10081,"2019,2020",Positive (+),0.97,1,amyloid_positive
+10087,GF10087,2019,Negative (-),0.89,0,amyloid_negative
+10093,GF10093,2019,Negative (-),0.95,0,amyloid_negative
+10094,GF10094,2019,Negative (-),0.98,0,amyloid_negative
+10097,GF10097,2019,Negative (-),0.9,0,amyloid_negative
+10100,GM10100,2019,Negative (-),0.99,0,amyloid_negative
+10129,GF10129,"2019,2020",Positive (+),1.12,1,amyloid_positive
+10131,GF10131,"2019,2020",Positive (+) : Positive (+),1.23,1,amyloid_positive
+10133,GM10133,"2019,2020",Positive (+) : Positive (+),1.34,1,amyloid_positive
+10136,GM10136,"2019,2020",Negative (-) : Negative (-),0.98,0,amyloid_negative
+10139,GF10139,2019,Negative (-),0.87,0,amyloid_negative
+10144,GM10144,2019,Negative (-),0.97,0,amyloid_negative
+10149,GM10149,2019,Negative (-),0.98,0,amyloid_negative
+10151,GF10151,2019,Negative (-),0.96,0,amyloid_negative
+10155,GF10155,2019,Negative (-),0.94,0,amyloid_negative
+10159,GF10159,2019,Negative (-),0.98,0,amyloid_negative
+10177,GF10177,2019,Negative (-),0.96,0,amyloid_negative
+10185,GM10185,2019,Positive (+),1.17,1,amyloid_positive
+10187,GF10187,"2019,2020",Positive (+) : Positive (+),1.1,1,amyloid_positive
+10195,GM10195,2021,Negative (-),0.96,0,amyloid_negative
+10197,GF10197,2019,Positive (+),1.14,1,amyloid_positive
+10199,GM10199,,Negative (-) : Negative (-),0.98,0,amyloid_negative
+10210,GF10210,2021,Positive (+) : Positive (+),1.08,1,amyloid_positive
+10212,GM10212,2019,Negative (-),1.01,0,amyloid_negative
+10213,GM10213,2019,Negative (-),0.92,0,amyloid_negative
+10216,GM10216,2019,Negative (-) : Negative (-),0.97,0,amyloid_negative
+10217,GM10217,2019,Positive (+),0.97,1,amyloid_positive
+10218,GF10218,"2019,2021",Positive (+) : Positive (+),1.12,1,amyloid_positive
+10222,GF10222,"2019,2020",Positive (+) : Positive (+) : Positive (+),1.3,1,amyloid_positive
+10251,GM10251,2019,Positive (+),1.24,1,amyloid_positive
+10278,GM10278,2019,Negative (-),1.04,0,amyloid_negative
+10290,GM10290,"2019,2020",Positive (+) : Positive (+),1.33,1,amyloid_positive
+10291,GM10291,2019,Negative (-),0.99,0,amyloid_negative
+10292,GF10292,2019,Positive (+),1.14,1,amyloid_positive
+10294,GM10294,"2019,2020",Positive (+),1.25,1,amyloid_positive
+10300,GF10300,2019,Negative (-),0.89,0,amyloid_negative
+10302,GF10302,2019,Negative (-),1.05,0,amyloid_negative
+10315,GF10315,"2019,2020",Positive (+) : Positive (+) : Positive (+),1.12,1,amyloid_positive
+10316,GM10316,"2019,2021",Positive (+) : Positive (+),1.13,1,amyloid_positive
+10317,GF10317,"2019,2021",Negative (-),0.91,0,amyloid_negative
+10321,GF10321,2019,Negative (-) : Negative (-),0.96,0,amyloid_negative
+10324,GF10324,2019,Negative (-),0.95,0,amyloid_negative
+10328,GM10328,2019,Negative (-) : Negative (-),0.96,0,amyloid_negative
+10343,GM10343,2019,Negative (-),0.97,0,amyloid_negative
+10348,GF10348,2019,Positive (+),1.27,1,amyloid_positive
+10355,GM10355,2019,Negative (-),0.94,0,amyloid_negative
+10356,GM10356,2019,Negative (-),0.94,0,amyloid_negative
+10362,GM10362,2019,Positive (+),1.19,1,amyloid_positive
+10366,GM10366,"2019,2020",Positive (+),1.3,1,amyloid_positive
+10367,GF10367,"2019,2020",Positive (+),1.59,1,amyloid_positive
+10369,GM10369,2019,Negative (-),0.99,0,amyloid_negative
+10385,GF10385,2019,Negative (-),1.01,0,amyloid_negative
+10392,GF10392,2019,Positive (+) : Positive (+),1.11,1,amyloid_positive
+10399,GF10399,2019,Negative (-),0.94,0,amyloid_negative
+10400,GM10400,2019,Positive (+),1.01,1,amyloid_positive
+10411,GM10411,2019,Negative (-),0.95,0,amyloid_negative
+10412,GF10412,2019,Negative (-),0.99,0,amyloid_negative
+10439,GM10439,2019,Negative (-),0.94,0,amyloid_negative
+10440,GF10440,2019,Negative (-),0.98,0,amyloid_negative
+10441,GF10441,2019,Negative (-),1.04,0,amyloid_negative
+10443,GF10443,2019,Negative (-),,0,amyloid_negative
+10452,GM10452,"2019,2020",Positive (+),1.09,1,amyloid_positive
+10459,GF10459,2019,Negative (-) : Negative (-),1.1,0,amyloid_negative
+10470,GF10470,2021,Negative (-),,0,amyloid_negative
+10471,GF10471,2019,Negative (-),1.04,0,amyloid_negative
+10477,GF10477,2019,Negative (-),0.97,0,amyloid_negative
+10483,GM10483,"2019,2020",Positive (+),0.91,1,amyloid_positive
+10486,GF10486,2019,Positive (+),1.36,1,amyloid_positive
+10490,GM10490,2019,Negative (-),0.96,0,amyloid_negative
+10505,GF10505,2019,Negative (-),1.01,0,amyloid_negative
+10506,GF10506,2019,Negative (-),0.95,0,amyloid_negative
+10550,GF10550,2019,Negative (-) : Negative (-),0.85,0,amyloid_negative
+10566,GM10566,"2019,2020",Negative (-),0.93,0,amyloid_negative
+10569,GF10569,2021,Negative (-),,0,amyloid_negative
+10575,GM10575,2019,Negative (-),0.96,0,amyloid_negative
+10576,GF10576,2019,Negative (-),0.99,0,amyloid_negative
+10581,GM10581,2019,Positive (+),1.31,1,amyloid_positive
+10582,GF10582,2019,Negative (-),1.04,0,amyloid_negative
+10584,GF10584,2021,Positive (+),,1,amyloid_positive
+10587,GF10587,"2019,2021",Positive (+) : Positive (+),1.31,1,amyloid_positive
+10588,GM10588,2019,Negative (-) : Negative (-),0.97,0,amyloid_negative
+10593,GF10593,2021,Positive (+),,1,amyloid_positive
+10599,GF10599,2019,Negative (-),0.97,0,amyloid_negative
+10602,GM10602,2019,Negative (-),0.95,0,amyloid_negative
+10619,GF10619,"2019,2020",Negative (-),1.03,0,amyloid_negative
+10626,GM10626,2019,Negative (-),0.99,0,amyloid_negative
+10639,GF10639,2019,Negative (-),1.06,0,amyloid_negative
+10658,GF10658,2019,Negative (-),1,0,amyloid_negative
+10666,GM10666,2019,Negative (-) : Negative (-),0.96,0,amyloid_negative
+10674,GM10674,2019,Negative (-),0.89,0,amyloid_negative
+10691,GM10691,"2019,2020",Negative (-),1.02,0,amyloid_negative
+10693,GM10693,2019,Negative (-),0.96,0,amyloid_negative
+10696,GM10696,"2019,2020",Positive (+) : Positive (+),1.15,1,amyloid_positive
+10702,GF10702,2019,Negative (-),0.97,0,amyloid_negative
+10706,GF10706,2019,Negative (-),0.89,0,amyloid_negative
+10709,GF10709,2019,Negative (-),1.05,0,amyloid_negative
+10711,GM10711,2019,Negative (-),1.06,0,amyloid_negative
+10718,GF10718,"2019,2021",Positive (+),1.42,1,amyloid_positive
+10727,GM10727,2019,Negative (-),0.9,0,amyloid_negative
+10739,GM10739,2019,Positive (+) : Positive (+),0.98,1,amyloid_positive
+10748,GF10748,2019,Negative (-),0.97,0,amyloid_negative
+10750,GF10750,2022,Negative (-),,0,amyloid_negative
+10751,GM10751,2019,Positive (+),1.1,1,amyloid_positive
+10762,GM10762,2019,Negative (-),0.93,0,amyloid_negative
+10771,GM10771,2019,Negative (-),0.93,0,amyloid_negative
+10795,GM10795,"2019,2020",Negative (-) : Negative (-),0.93,0,amyloid_negative
+10800,GF10800,2019,Negative (-),0.92,0,amyloid_negative
+10802,GF10802,2019,Negative (-),0.87,0,amyloid_negative
+10807,GM10807,2019,Negative (-),0.93,0,amyloid_negative
+10811,GF10811,2019,Negative (-),0.98,0,amyloid_negative
+10838,GM10838,2019,Negative (-),0.96,0,amyloid_negative
+10843,GF10843,2019,Negative (-),1.02,0,amyloid_negative
+10845,GM10845,"2019,2021",Negative (-) : Negative (-),0.91,0,amyloid_negative
+10851,GF10851,"2019,2020",Positive (+) : Positive (+),1.1,1,amyloid_positive
+10863,GF10863,"2019,2020",Positive (+),1.34,1,amyloid_positive
+10866,GF10866,2020,Negative (-),1.09,0,amyloid_negative
+10868,GF10868,2019,Positive (+),1.62,1,amyloid_positive
+10871,GF10871,2020,Negative (-),,0,amyloid_negative
+10877,GM10877,"2020,2021",Positive (+),,1,amyloid_positive
+10878,GM10878,2020,Positive (+),,1,amyloid_positive
+10893,GF10893,2019,Positive (+),1.18,1,amyloid_positive
+10915,GF10915,"2019,2021",Negative (-),0.98,0,amyloid_negative
+10917,GM10917,"2019,2021",Positive (+) : Positive (+),1.26,1,amyloid_positive
+10924,GF10924,"2019,2020",Positive (+),1.31,1,amyloid_positive
+10927,GF10927,2019,Negative (-),1,0,amyloid_negative
+10929,GM10929,2019,Negative (-),0.94,0,amyloid_negative
+10937,GM10937,"2019,2021",Positive (+) : Positive (+),1.06,1,amyloid_positive
+10941,GF10941,2019,Negative (-),0.98,0,amyloid_negative
+10943,GF10943,2019,Negative (-),1.07,0,amyloid_negative
+10950,GF10950,2019,Negative (-),0.96,0,amyloid_negative
+10962,GF10962,2019,Negative (-),1.01,0,amyloid_negative
+10964,GF10964,2019,Positive (+),,1,amyloid_positive
+10979,GF10979,2019,Negative (-),0.93,0,amyloid_negative
+10995,GM10995,2019,Negative (-),0.98,0,amyloid_negative
+11005,GF11005,2021,Positive (+) : Positive (+),,1,amyloid_positive
+11015,GM11015,2021,Positive (+),,1,amyloid_positive
+11017,GM11017,2019,Positive (+),1.56,1,amyloid_positive
+11050,GF11050,,Negative (-),,0,amyloid_negative
+11051,GM11051,2019,Negative (-),0.91,0,amyloid_negative
+11055,GM11055,,Negative (-),,0,amyloid_negative
+11061,GF11061,2019,Negative (-),0.92,0,amyloid_negative
+11092,GM11092,2019,Negative (-),0.97,0,amyloid_negative
+11093,GF11093,"2019,2021",Positive (+),1.33,1,amyloid_positive
+11105,GF11105,2019,Negative (-),0.99,0,amyloid_negative
+11107,GF11107,"2019,2021",Negative (-),0.95,0,amyloid_negative
+11108,GF11108,"2019,2021",Negative (-) : Negative (-),0.98,0,amyloid_negative
+11109,GM11109,2020,Negative (-),,0,amyloid_negative
+11113,GM11113,2019,Positive (+),0.99,1,amyloid_positive
+11132,GM11132,2019,Negative (-),0.93,0,amyloid_negative
+11136,GF11136,"2019,2021",Negative (-),0.97,0,amyloid_negative
+11142,GF11142,2019,Negative (-),1.03,0,amyloid_negative
+11151,GF11151,2019,Negative (-),0.97,0,amyloid_negative
+11158,GF11158,2019,Negative (-),0.94,0,amyloid_negative
+11172,GF11172,2019,Negative (-),1.02,0,amyloid_negative
+11173,GM11173,"2019,2021",Positive (+) : Positive (+),1.04,1,amyloid_positive
+11174,GF11174,"2019,2021",Positive (+),1.48,1,amyloid_positive
+11176,GM11176,2019,Positive (+),0.99,1,amyloid_positive
+11179,GM11179,"2019,2021",Positive (+) : Positive (+),1.12,1,amyloid_positive
+11194,GM11194,2021,Negative (-),,0,amyloid_negative
+11195,GF11195,2021,Negative (-),,0,amyloid_negative
+11202,GF11202,2020,Negative (-),1.06,0,amyloid_negative
+11207,GF11207,2020,Negative (-),0.98,0,amyloid_negative
+11213,GM11213,2020,Negative (-),1.08,0,amyloid_negative
+11219,GF11219,,Negative (-),,0,amyloid_negative
+11220,GF11220,2020,Negative (-),1,0,amyloid_negative
+11244,GM11244,"2020,2021",Negative (-),1.09,0,amyloid_negative
+11245,GF11245,"2020,2021",Positive (+) : Positive (+) : Positive (+),1.21,1,amyloid_positive
+11258,GF11258,"2020,2021",Negative (-),1,0,amyloid_negative
+11259,GM11259,"2020,2021",Positive (+) : Positive (+),1.13,1,amyloid_positive
+11262,GM11262,2020,Negative (-),0.96,0,amyloid_negative
+11272,GM11272,2021,Positive (+),,1,amyloid_positive
+11274,GM11274,"2020,2021",Positive (+) : Positive (+),1.37,1,amyloid_positive
+11275,GF11275,2020,Negative (-),,0,amyloid_negative
+11281,GF11281,2020,Negative (-),0.96,0,amyloid_negative
+11283,GM11283,2020,Positive (+) : Positive (+),1.02,1,amyloid_positive
+11287,GM11287,,Positive (+) : Positive (+),1.31,1,amyloid_positive
+11288,GF11288,2022,Positive (+) : Positive (+),1.41,1,amyloid_positive
+11292,GF11292,"2020,2021",Negative (-) : Negative (-),1,0,amyloid_negative
+11295,GF11295,2020,Negative (-) : Negative (-),0.93,0,amyloid_negative
+11296,GM11296,,Negative (-),,0,amyloid_negative
+11297,GM11297,2020,Negative (-),0.97,0,amyloid_negative
+11301,GM11301,2020,Negative (-),1.02,0,amyloid_negative
+11304,GM11304,2020,Positive (+),1.05,1,amyloid_positive
+11308,GF11308,2020,Negative (-),0.96,0,amyloid_negative
+11309,GM11309,2020,Negative (-),0.97,0,amyloid_negative
+11312,GM11312,2019,Negative (-),0.97,0,amyloid_negative
+11313,GF11313,2019,Positive (+),1.54,1,amyloid_positive
+11316,GF11316,2019,Negative (-),1,0,amyloid_negative
+11317,GF11317,"2019,2021",Positive (+) : Positive (+) : Positive (+),1.12,1,amyloid_positive
+11329,GM11329,"2020,2021",Negative (-),0.94,0,amyloid_negative
+11332,GM11332,2020,Positive (+) : Negative (-),1.08,0,amyloid_negative
+11346,GF11346,"2020,2021",Positive (+) : Positive (+),1.06,1,amyloid_positive
+11347,GM11347,2021,Positive (+),,1,amyloid_positive
+11348,GF11348,2021,Negative (-),,0,amyloid_negative
+11357,GM11357,"2020,2021",Positive (+),1.08,1,amyloid_positive
+11364,GF11364,2019,Negative (-),1.01,0,amyloid_negative
+11370,GF11370,2020,Negative (-),1.03,0,amyloid_negative
+11372,GF11372,"2019,2021",Negative (-),1.03,0,amyloid_negative
+11385,GM11385,2020,Negative (-),1.01,0,amyloid_negative
+11400,GF11400,2020,Negative (-),1.04,0,amyloid_negative
+11412,GM11412,2020,Negative (-),0.98,0,amyloid_negative
+11414,GF11414,"2020,2021",Negative (-) : Negative (-),1.02,0,amyloid_negative
+11415,GM11415,"2020,2021",Positive (+),1.06,1,amyloid_positive
+11423,GM11423,"2020,2021",Positive (+),0.9,1,amyloid_positive
+11428,GF11428,,Negative (-),,0,amyloid_negative
+11429,GF11429,2020,Negative (-),0.98,0,amyloid_negative
+11433,GF11433,2020,Negative (-),1.07,0,amyloid_negative
+11438,GM11438,2020,Negative (-),0.96,0,amyloid_negative
+11439,GF11439,"2020,2021",Positive (+) : Positive (+) : Positive (+),1.35,1,amyloid_positive
+11449,GM11449,2020,Negative (-),0.98,0,amyloid_negative
+11456,GM11456,2021,Negative (-),,0,amyloid_negative
+11457,GM11457,2020,Positive (+),1.12,1,amyloid_positive
+11458,GM11458,"2020,2021",Positive (+) : Positive (+),1.06,1,amyloid_positive
+11459,GM11459,"2020,2021",Positive (+),1.31,1,amyloid_positive
+11465,GF11465,2020,Positive (+),1.4,1,amyloid_positive
+11471,GF11471,2020,Negative (-),0.98,0,amyloid_negative
+11473,GM11473,2020,Negative (-),1,0,amyloid_negative
+11475,GM11475,2020,Negative (-),1.01,0,amyloid_negative
+11477,GF11477,2021,Negative (-),,0,amyloid_negative
+11480,GF11480,2020,Negative (-),1.01,0,amyloid_negative
+11481,GF11481,2020,Negative (-),1.13,0,amyloid_negative
+11482,GM11482,2020,Negative (-),0.99,0,amyloid_negative
+11484,GM11484,2020,Negative (-),0.99,0,amyloid_negative
+11491,GM11491,2020,Positive (+),1.23,1,amyloid_positive
+11534,GF11534,2020,Negative (-),0.97,0,amyloid_negative
+11568,GF11568,2020,Negative (-),,0,amyloid_negative
+11571,GF11571,2020,Negative (-),1,0,amyloid_negative
+11587,GM11587,2020,Negative (-),1.01,0,amyloid_negative
+11602,GF11602,2020,Negative (-),1.05,0,amyloid_negative
+11619,GF11619,2020,Negative (-),,0,amyloid_negative
+11688,GF11688,2021,Positive (+),,1,amyloid_positive
+11728,GF11728,"2020,2021",Positive (+),1.03,1,amyloid_positive
+11729,GM11729,2020,Negative (-),,0,amyloid_negative
+11777,GF11777,2020,Negative (-),1.05,0,amyloid_negative
+11854,CF11854,2021,Positive (+),,1,amyloid_positive
+11856,CM11856,2021,Positive (+),,1,amyloid_positive
+12063,CM12063,2021,Negative (-),,0,amyloid_negative
+12065,GF12065,2020,Negative (-) : Negative (-),0.98,0,amyloid_negative
+12160,GF12160,,Negative (-),,0,amyloid_negative
+12193,GM12193,2021,Negative (-),,0,amyloid_negative
+12242,CM12242,2021,Negative (-),,0,amyloid_negative
+12483,CF12483,,Negative (-),,0,amyloid_negative
+12515,GM12515,2020,Positive (+) : Positive (+),1.62,1,amyloid_positive
+12532,GM12532,2020,Positive (+),,1,amyloid_positive
+12539,GM12539,2020,Negative (-),0.96,0,amyloid_negative
+12548,GF12548,2020,Positive (+),,1,amyloid_positive
+12553,GM12553,2020,Positive (+),1.14,1,amyloid_positive
+12556,GF12556,2020,Negative (-),1.09,0,amyloid_negative
+12560,GM12560,2021,Positive (+) : Positive (+),,1,amyloid_positive
+12567,GF12567,2020,Negative (-),,0,amyloid_negative
+12573,GF12573,2020,Positive (+),1.14,1,amyloid_positive
+12576,GF12576,2020,Negative (-),1,0,amyloid_negative
+12582,GM12582,2020,Negative (-),1.04,0,amyloid_negative
+12585,GF12585,2020,Negative (-),,0,amyloid_negative
+12586,GF12586,2020,Positive (+),1.45,1,amyloid_positive
+12587,GF12587,2020,Positive (+) : Positive (+),1.05,1,amyloid_positive
+12594,GF12594,2020,Negative (-),1,0,amyloid_negative
+12599,GM12599,2020,Negative (-),1.08,0,amyloid_negative
+12602,GF12602,2020,Negative (-),1.01,0,amyloid_negative
+12608,GF12608,2020,Negative (-),0.96,0,amyloid_negative
+12611,GF12611,2020,Negative (-),1.01,0,amyloid_negative
+12612,GF12612,"2020,2021",Positive (+) : Positive (+),1.44,1,amyloid_positive
+12624,GM12624,2020,Negative (-),0.95,0,amyloid_negative
+12625,GF12625,,Negative (-),,0,amyloid_negative
+12629,GF12629,2020,Positive (+) : Positive (+),1.21,1,amyloid_positive
+12631,GM12631,2020,Negative (-),0.95,0,amyloid_negative
+12634,GF12634,2020,Negative (-) : Negative (-),1.06,0,amyloid_negative
+12644,GM12644,2020,Positive (+),1.12,1,amyloid_positive
+12656,GM12656,"2020,2021",Positive (+) : Positive (+) : Positive (+),1.74,1,amyloid_positive
+12659,GF12659,2020,Negative (-),1.01,0,amyloid_negative
+12661,GF12661,2020,Negative (-),0.99,0,amyloid_negative
+12662,GM12662,2021,Negative (-),,0,amyloid_negative
+12663,GF12663,2020,Negative (-),,0,amyloid_negative
+12667,GF12667,2020,Positive (+),1.13,1,amyloid_positive
+12671,GF12671,2020,Positive (+),,1,amyloid_positive
+12676,GM12676,2020,Positive (+),0.99,1,amyloid_positive
+12678,GM12678,2020,Negative (-),,0,amyloid_negative
+12691,GF12691,2020,Negative (-),1,0,amyloid_negative
+12695,GM12695,2020,Negative (-),1.06,0,amyloid_negative
+12696,GM12696,2020,Negative (-),0.93,0,amyloid_negative
+12706,GF12706,2020,Positive (+),1.13,1,amyloid_positive
+12711,GF12711,2020,Positive (+) : Positive (+),1.48,1,amyloid_positive
+12713,GF12713,2020,Negative (-),0.95,0,amyloid_negative
+12715,GF12715,2020,Negative (-),,0,amyloid_negative
+12716,GF12716,2020,Negative (-),1.06,0,amyloid_negative
+12741,GF12741,2020,Negative (-),1,0,amyloid_negative
+12750,GM12750,2020,Negative (-),0.88,0,amyloid_negative
+12770,GF12770,2020,Negative (-),1,0,amyloid_negative
+12776,GM12776,2020,Negative (-),0.89,0,amyloid_negative
+12778,GF12778,2020,Negative (-),1.09,0,amyloid_negative
+12782,GF12782,2020,Negative (-),0.97,0,amyloid_negative
+12784,GM12784,2020,Positive (+),0.9,1,amyloid_positive
+12790,GM12790,2020,Positive (+) : Positive (+),1,1,amyloid_positive
+12791,GF12791,2020,Positive (+),1.18,1,amyloid_positive
+12792,GM12792,2020,Negative (-),0.93,0,amyloid_negative
+12801,GM12801,2020,Negative (-),1,0,amyloid_negative
+12803,GF12803,2020,Positive (+),1.46,1,amyloid_positive
+12813,GM12813,2020,Positive (+),1.13,1,amyloid_positive
+12838,GM12838,2020,Negative (-),1.02,0,amyloid_negative
+12853,GM12853,2020,Positive (+),1.5,1,amyloid_positive
+12854,GF12854,2020,Negative (-),1.06,0,amyloid_negative
+12862,GF12862,,Positive (+),,1,amyloid_positive
+12867,GM12867,2020,Positive (+),1.29,1,amyloid_positive
+12871,GM12871,2020,Negative (-),1.03,0,amyloid_negative
+12877,GF12877,,Positive (+) : Positive (+),,1,amyloid_positive
+12890,GM12890,2020,Positive (+),1.17,1,amyloid_positive
+12894,GM12894,2020,Positive (+),1.05,1,amyloid_positive
+12895,GM12895,2020,Negative (-),0.96,0,amyloid_negative
+12898,GF12898,2020,Negative (-),1.01,0,amyloid_negative
+12902,GM12902,2020,Negative (-),0.98,0,amyloid_negative
+12903,GF12903,2020,Negative (-),0.96,0,amyloid_negative
+12918,GF12918,2020,Negative (-),,0,amyloid_negative
+12919,GM12919,2020,Negative (-),,0,amyloid_negative
+12938,GF12938,2020,Negative (-),,0,amyloid_negative
+12940,GM12940,2020,Negative (-),0.98,0,amyloid_negative
+12943,GM12943,2020,Positive (+),1.06,1,amyloid_positive
+12953,GM12953,2020,Negative (-),,0,amyloid_negative
+12961,GM12961,2020,Positive (+) : Positive (+),1.28,1,amyloid_positive
+12962,GF12962,2020,Negative (-),0.97,0,amyloid_negative
+12964,GF12964,2020,Negative (-),1.07,0,amyloid_negative
+12969,GF12969,2020,Positive (+),1.12,1,amyloid_positive
+12970,GM12970,2020,Positive (+) : Positive (+),,1,amyloid_positive
+12972,GF12972,2020,Positive (+) : Positive (+),0.98,1,amyloid_positive
+12973,GM12973,2020,Positive (+) : Positive (+) : Positive (+),1.23,1,amyloid_positive
+12976,GF12976,2020,Negative (-),1.06,0,amyloid_negative
+12980,GM12980,2020,Positive (+),,1,amyloid_positive
+12986,GM12986,"2020,2021",Positive (+),1.07,1,amyloid_positive
+13003,GF13003,"2020,2021",Positive (+) : Positive (+),1.27,1,amyloid_positive
+13019,GF13019,2020,Positive (+) : Positive (+),1.06,1,amyloid_positive
+13020,GM13020,2020,Negative (-),1.06,0,amyloid_negative
+13036,GM13036,2020,Positive (+),0.94,1,amyloid_positive
+13038,GM13038,2020,Positive (+),,1,amyloid_positive
+13043,GF13043,2023,Positive (+),,1,amyloid_positive
+13049,GM13049,2020,Positive (+),0.92,1,amyloid_positive
+13052,GF13052,2020,Negative (-),1.1,0,amyloid_negative
+13057,GM13057,2020,Negative (-),0.92,0,amyloid_negative
+13058,GF13058,2020,Negative (-),1.09,0,amyloid_negative
+13077,GM13077,2020,Negative (-),0.96,0,amyloid_negative
+13078,GF13078,2020,Positive (+),1.43,1,amyloid_positive
+13083,GM13083,2020,Positive (+),0.94,1,amyloid_positive
+13091,GF13091,2020,Negative (-),0.97,0,amyloid_negative
+13094,GF13094,2020,Positive (+) : Positive (+),1.5,1,amyloid_positive
+13095,GM13095,2020,Positive (+) : Positive (+),1.22,1,amyloid_positive
+13098,GF13098,2020,Negative (-),1.01,0,amyloid_negative
+13101,GF13101,2020,Positive (+),1.39,1,amyloid_positive
+13109,GM13109,2020,Negative (-),1.04,0,amyloid_negative
+13122,GM13122,2021,Positive (+) : Positive (+),0.98,1,amyloid_positive
+13123,GF13123,,Negative (-),,0,amyloid_negative
+13132,GF13132,2020,Negative (-),,0,amyloid_negative
+13134,GF13134,2020,Positive (+),1.19,1,amyloid_positive
+13135,GF13135,2020,Negative (-),1.25,0,amyloid_negative
+13137,GF13137,2020,Negative (-),0.94,0,amyloid_negative
+13138,GM13138,2020,Negative (-),0.95,0,amyloid_negative
+13140,GM13140,2020,Negative (-),,0,amyloid_negative
+13145,GF13145,2020,Negative (-),1.01,0,amyloid_negative
+13147,GF13147,2020,Positive (+),,1,amyloid_positive
+13148,GM13148,2020,Negative (-),,0,amyloid_negative
+13157,GF13157,2020,Positive (+),,1,amyloid_positive
+13167,GM13167,2020,Negative (-),,0,amyloid_negative
+13168,GF13168,2020,Positive (+),,1,amyloid_positive
+13180,GM13180,2020,Positive (+),1.08,1,amyloid_positive
+13185,GM13185,2020,Negative (-),,0,amyloid_negative
+13186,GF13186,2020,Negative (-),0.99,0,amyloid_negative
+13213,GF13213,2021,Negative (-),,0,amyloid_negative
+13215,GM13215,2021,Negative (-),,0,amyloid_negative
+13240,GF13240,2021,Negative (-),1.17,0,amyloid_negative
+13242,GF13242,2020,Positive (+),1.08,1,amyloid_positive
+13243,GF13243,2020,Negative (-),1,0,amyloid_negative
+13253,GF13253,2020,Positive (+),1.39,1,amyloid_positive
+13254,GF13254,2021,Positive (+),,1,amyloid_positive
+13263,GF13263,2021,Positive (+),1.21,1,amyloid_positive
+13269,GM13269,2021,Negative (-),0.99,0,amyloid_negative
+13271,GF13271,2021,Positive (+),1.58,1,amyloid_positive
+13275,GF13275,,Negative (-),1.05,0,amyloid_negative
+13280,GM13280,2021,Positive (+) : Positive (+),,1,amyloid_positive
+13296,GM13296,2021,Negative (-),,0,amyloid_negative
+13306,GF13306,2021,Positive (+),1.56,1,amyloid_positive
+13308,GM13308,2021,Positive (+),1.33,1,amyloid_positive
+13310,GM13310,2021,Positive (+),,1,amyloid_positive
+13312,GF13312,2021,Negative (-),,0,amyloid_negative
+13319,GM13319,2021,Negative (-),1.04,0,amyloid_negative
+13333,GF13333,2021,Negative (-),0.99,0,amyloid_negative
+13334,GF13334,2021,Negative (-),,0,amyloid_negative
+13336,GM13336,2021,Negative (-),0.96,0,amyloid_negative
+13339,GM13339,2021,Negative (-),1.12,0,amyloid_negative
+13341,GM13341,2021,Negative (-),0.99,0,amyloid_negative
+13344,GM13344,2021,Negative (-),,0,amyloid_negative
+13352,GM13352,2022,Positive (+),0.92,1,amyloid_positive
+13355,GM13355,2021,Positive (+),,1,amyloid_positive
+13361,GF13361,2021,Positive (+) : Negative (-),1.03,0,amyloid_negative
+13367,GF13367,2021,Positive (+),1.12,1,amyloid_positive
+13368,GF13368,,Negative (-),,0,amyloid_negative
+13369,GF13369,2021,Negative (-),1.07,0,amyloid_negative
+13370,GM13370,2021,Positive (+),,1,amyloid_positive
+13371,GF13371,2021,Negative (-),,0,amyloid_negative
+13372,GF13372,,Negative (-),,0,amyloid_negative
+13374,GF13374,2021,Positive (+),,1,amyloid_positive
+13395,GF13395,2021,Positive (+),,1,amyloid_positive
+13402,GF13402,2021,Negative (-),,0,amyloid_negative
+13403,GF13403,2021,Negative (-),0.96,0,amyloid_negative
+13404,GM13404,2021,Positive (+),,1,amyloid_positive
+13407,GF13407,2021,Positive (+) : Positive (+),1.14,1,amyloid_positive
+13419,GF13419,2021,Negative (-),,0,amyloid_negative
+13420,GM13420,2021,Positive (+) : Positive (+),,1,amyloid_positive
+13421,GF13421,2021,Positive (+),1.24,1,amyloid_positive
+13423,GF13423,2021,Positive (+) : Positive (+),,1,amyloid_positive
+13424,GF13424,2021,Negative (-),,0,amyloid_negative
+13426,GF13426,2021,Negative (-),0.97,0,amyloid_negative
+13431,GM13431,2021,Negative (-),,0,amyloid_negative
+13432,GF13432,2021,Positive (+),,1,amyloid_positive
+13437,GM13437,2021,Negative (-),0.89,0,amyloid_negative
+13438,GF13438,2021,Positive (+),,1,amyloid_positive
+13440,GF13440,2021,Negative (-),1.18,0,amyloid_negative
+13441,GF13441,2021,Negative (-),1.09,0,amyloid_negative
+13443,GF13443,2021,Negative (-),,0,amyloid_negative
+13444,GF13444,2021,Negative (-),,0,amyloid_negative
+13445,GM13445,2021,Negative (-),,0,amyloid_negative
+13450,GM13450,2021,Negative (-),,0,amyloid_negative
+13451,GF13451,2021,Positive (+) : Positive (+),,1,amyloid_positive
+13476,GF13476,2021,Negative (-),,0,amyloid_negative
+13479,GM13479,2021,Negative (-),,0,amyloid_negative
+13480,GM13480,2021,Negative (-),,0,amyloid_negative
+13483,GF13483,2021,Positive (+),1.5,1,amyloid_positive
+13485,GF13485,2021,Negative (-),,0,amyloid_negative
+13487,GM13487,2021,Positive (+),,1,amyloid_positive
+13489,GF13489,2021,Positive (+),,1,amyloid_positive
+13500,GM13500,2021,Positive (+),,1,amyloid_positive
+13501,GF13501,2021,Negative (-),,0,amyloid_negative
+13505,GF13505,,Positive (+),,1,amyloid_positive
+13509,GM13509,2021,Negative (-),,0,amyloid_negative
+13512,GM13512,2021,Negative (-),0.95,0,amyloid_negative
+13517,GF13517,2021,Positive (+),,1,amyloid_positive
+13526,GM13526,2021,Negative (-),,0,amyloid_negative
+13529,GF13529,2021,Negative (-),,0,amyloid_negative
+13530,GM13530,2021,Negative (-),,0,amyloid_negative
+13542,GM13542,2021,Negative (-),,0,amyloid_negative
+13543,GF13543,2021,Negative (-),,0,amyloid_negative
+13546,GF13546,2021,Negative (-),,0,amyloid_negative
+13547,GM13547,2021,Negative (-),,0,amyloid_negative
+13555,GF13555,2021,Negative (-) : Negative (-),,0,amyloid_negative
+13562,GF13562,2021,Positive (+),,1,amyloid_positive
+13563,GM13563,2021,Negative (-),,0,amyloid_negative
+13565,GM13565,2021,Negative (-),,0,amyloid_negative
+13570,GF13570,2021,Negative (-),,0,amyloid_negative
+13574,GM13574,2021,Positive (+),,1,amyloid_positive
+13584,GF13584,2021,Negative (-),,0,amyloid_negative
+13585,GF13585,2021,Positive (+),,1,amyloid_positive
+13590,GF13590,2021,Negative (-),,0,amyloid_negative
+13591,GM13591,2021,Negative (-),,0,amyloid_negative
+13598,GM13598,2021,Negative (-),,0,amyloid_negative
+13611,GF13611,2021,Negative (-),,0,amyloid_negative
+13617,GF13617,2021,Negative (-),,0,amyloid_negative
+13631,GF13631,2021,Positive (+),,1,amyloid_positive
+13632,GM13632,2022,Positive (+),,1,amyloid_positive
+13634,GF13634,2021,Negative (-),,0,amyloid_negative
+13635,GF13635,2021,Negative (-),,0,amyloid_negative
+13636,GM13636,2021,Negative (-),,0,amyloid_negative
+13640,GF13640,2021,Positive (+),,1,amyloid_positive
+13641,GM13641,2021,Negative (-),,0,amyloid_negative
+13643,GM13643,2021,Positive (+),,1,amyloid_positive
+13646,GF13646,2021,Positive (+),,1,amyloid_positive
+13662,GM13662,2021,Positive (+),,1,amyloid_positive
+13663,GF13663,2021,Negative (-),,0,amyloid_negative
+13667,GM13667,2021,Negative (-),,0,amyloid_negative
+13668,GF13668,2021,Negative (-),,0,amyloid_negative
+13669,GF13669,2021,Negative (-),,0,amyloid_negative
+13672,GM13672,,Negative (-),,0,amyloid_negative
+13699,GM13699,2021,Negative (-),,0,amyloid_negative
+13709,GM13709,2021,Positive (+),,1,amyloid_positive
+13711,GF13711,2021,Negative (-),,0,amyloid_negative
+13720,GM13720,2021,Positive (+),,1,amyloid_positive
+13724,GM13724,2021,Positive (+),,1,amyloid_positive
+13729,GM13729,2021,Positive (+),,1,amyloid_positive
+13754,GF13754,2021,Negative (-),,0,amyloid_negative
+13759,GF13759,2021,Negative (-),,0,amyloid_negative
+13766,GM13766,2021,Negative (-),,0,amyloid_negative
+13771,GM13771,2021,Positive (+),,1,amyloid_positive
+13787,GM13787,2021,Negative (-),,0,amyloid_negative
+13815,GM13815,,Negative (-),,0,amyloid_negative
+13819,GM13819,,Positive (+),,1,amyloid_positive
+13826,GF13826,2021,Positive (+),,1,amyloid_positive
+13851,GF13851,2021,Negative (-),,0,amyloid_negative
+13852,GF13852,2021,Negative (-),,0,amyloid_negative
+13853,GM13853,2021,Negative (-),,0,amyloid_negative
+13855,GM13855,2021,Negative (-),,0,amyloid_negative
+13878,GF13878,,Negative (-),,0,amyloid_negative
+13884,GF13884,2021,Positive (+),,1,amyloid_positive
+13911,GM13911,2021,Negative (-),,0,amyloid_negative
+13912,GF13912,2021,Positive (+),,1,amyloid_positive
+13933,GM13933,2021,Negative (-),,0,amyloid_negative
+13934,GF13934,2021,Negative (-),,0,amyloid_negative
+13935,GF13935,,Negative (-),,0,amyloid_negative
+13972,GM13972,2021,Positive (+),,1,amyloid_positive
+13973,GF13973,2021,Negative (-),,0,amyloid_negative
+13978,GM13978,2021,Negative (-),,0,amyloid_negative
+13997,GF13997,2021,Positive (+),,1,amyloid_positive
+13998,GM13998,2021,Positive (+),,1,amyloid_positive
+14000,GF14000,,Negative (-),,0,amyloid_negative
+14007,GM14007,,Negative (-),,0,amyloid_negative
+14021,GF14021,2021,Negative (-),,0,amyloid_negative
+14023,GF14023,,Negative (-),,0,amyloid_negative
+14032,GM14032,2021,Negative (-),,0,amyloid_negative
+14057,GF14057,2021,Negative (-),,0,amyloid_negative
+14058,GM14058,2021,Negative (-),,0,amyloid_negative
+14085,GF14085,,Negative (-),,0,amyloid_negative
+14088,GM14088,2021,Positive (+),,1,amyloid_positive
+14094,GF14094,2021,Negative (-),,0,amyloid_negative
+14096,GM14096,,Negative (-),,0,amyloid_negative
+14108,GF14108,2021,Negative (-),,0,amyloid_negative
+14109,GM14109,2021,Negative (-),,0,amyloid_negative
+14115,GF14115,,Negative (-),,0,amyloid_negative
+14116,GM14116,,Positive (+),,1,amyloid_positive
+14118,GF14118,2021,Negative (-),,0,amyloid_negative
+14132,GF14132,,Negative (-),,0,amyloid_negative
+14135,GM14135,,Negative (-),,0,amyloid_negative
+14145,GF14145,,Positive (+),,1,amyloid_positive
+14166,GF14166,2021,Negative (-),,0,amyloid_negative
+14170,GM14170,2021,Negative (-),,0,amyloid_negative
+14171,GM14171,2021,Negative (-),,0,amyloid_negative
+14182,GM14182,2021,Negative (-),,0,amyloid_negative
+14191,GM14191,2021,Positive (+),,1,amyloid_positive
+14192,GF14192,2021,Negative (-),,0,amyloid_negative
+14193,GF14193,2021,Negative (-),,0,amyloid_negative
+14209,GM14209,2021,Negative (-),,0,amyloid_negative
+14211,GF14211,,Positive (+),,1,amyloid_positive
+14215,GM14215,2021,Positive (+),,1,amyloid_positive
+14219,GM14219,2021,Negative (-),,0,amyloid_negative
+14227,GM14227,2021,Negative (-),,0,amyloid_negative
+14231,GM14231,2021,Positive (+),,1,amyloid_positive
+14236,GF14236,2021,Positive (+),,1,amyloid_positive
+14240,GF14240,2022,Negative (-),,0,amyloid_negative
+14244,GF14244,2022,Negative (-),,0,amyloid_negative
+14248,GM14248,2021,Negative (-),,0,amyloid_negative
+14249,GF14249,,Negative (-),,0,amyloid_negative
+14251,GM14251,,Negative (-),,0,amyloid_negative
+14252,GM14252,,Negative (-),,0,amyloid_negative
+14256,GM14256,2021,Negative (-),,0,amyloid_negative
+14261,GM14261,,Positive (+),,1,amyloid_positive
+14265,GF14265,2021,Negative (-),,0,amyloid_negative
+14268,GF14268,,Negative (-),,0,amyloid_negative
+14276,GF14276,2021,Negative (-),,0,amyloid_negative
+14282,GF14282,,Negative (-),,0,amyloid_negative
+14283,GM14283,,Negative (-),,0,amyloid_negative
+14284,GF14284,,Negative (-),,0,amyloid_negative
+14286,GM14286,2021,Negative (-),,0,amyloid_negative
+14300,GF14300,2022,Negative (-),,0,amyloid_negative
+14301,GF14301,2022,Negative (-),,0,amyloid_negative
+14307,GM14307,2021,Negative (-),,0,amyloid_negative
+14328,GF14328,2022,Positive (+),,1,amyloid_positive
+14330,GF14330,2022,Negative (-),,0,amyloid_negative
+14332,GF14332,2022,Negative (-),,0,amyloid_negative
+14340,GF14340,2022,Positive (+),,1,amyloid_positive
+14342,GF14342,2022,Negative (-),,0,amyloid_negative
+14344,GF14344,2022,Negative (-),,0,amyloid_negative
+14351,GF14351,2021,Negative (-),,0,amyloid_negative
+14359,GM14359,2022,Negative (-),,0,amyloid_negative
+14386,GF14386,,Positive (+),,1,amyloid_positive
+14387,GF14387,,Negative (-),,0,amyloid_negative
+14389,GF14389,,Negative (-),,0,amyloid_negative
+14423,GM14423,,Positive (+),,1,amyloid_positive
+14427,GM14427,2022,Negative (-),,0,amyloid_negative
+14468,GF14468,2022,Negative (-),,0,amyloid_negative
+14473,GM14473,2022,Negative (-),,0,amyloid_negative
+14475,GM14475,2022,Negative (-),,0,amyloid_negative
+14478,GF14478,2022,Negative (-),,0,amyloid_negative
+14480,GF14480,2022,Negative (-),,0,amyloid_negative
+14481,GM14481,2022,Positive (+),,1,amyloid_positive
+14482,GM14482,2022,Negative (-),,0,amyloid_negative
+14506,GF14506,2022,Negative (-),,0,amyloid_negative
+14507,GM14507,2022,Negative (-),,0,amyloid_negative
+14508,GM14508,2022,Negative (-),,0,amyloid_negative
+14509,GF14509,2022,Negative (-),,0,amyloid_negative
+14510,GM14510,2022,Negative (-),,0,amyloid_negative
+14511,GF14511,2022,Negative (-),,0,amyloid_negative
+14514,GM14514,2022,Negative (-),,0,amyloid_negative
+14515,GF14515,2022,Negative (-),,0,amyloid_negative
+14516,GF14516,2022,Positive (+) : Positive (+),,1,amyloid_positive
+14517,GM14517,2022,Negative (-),,0,amyloid_negative
+14518,GF14518,2022,Negative (-),,0,amyloid_negative
+14520,GF14520,2022,Negative (-),,0,amyloid_negative
+14523,GF14523,,Negative (-),,0,amyloid_negative
+14537,GF14537,2022,Negative (-),,0,amyloid_negative
+14540,GF14540,2022,Negative (-),,0,amyloid_negative
+14543,GF14543,2022,Negative (-),,0,amyloid_negative
+14545,GF14545,2022,Negative (-),,0,amyloid_negative
+14546,GF14546,2022,Positive (+),,1,amyloid_positive
+14549,GM14549,,Negative (-),,0,amyloid_negative
+14550,GM14550,2022,Positive (+),,1,amyloid_positive
+14551,GF14551,2022,Negative (-),,0,amyloid_negative
+14561,GF14561,2022,Negative (-),,0,amyloid_negative
+14562,GM14562,2022,Negative (-),,0,amyloid_negative
+14563,GM14563,2022,Positive (+),,1,amyloid_positive
+14567,GM14567,2022,Negative (-),,0,amyloid_negative
+14568,GF14568,2022,Negative (-),,0,amyloid_negative
+14572,GF14572,2022,Negative (-),,0,amyloid_negative
+14583,GM14583,2022,Positive (+),,1,amyloid_positive
+14584,GF14584,2022,Positive (+),,1,amyloid_positive
+14585,GF14585,2022,Negative (-),,0,amyloid_negative
+14586,GF14586,2022,Negative (-),,0,amyloid_negative
+14587,GF14587,2022,Negative (-),,0,amyloid_negative
+14590,GM14590,2022,Negative (-),,0,amyloid_negative
+14598,GM14598,2022,Positive (+),,1,amyloid_positive
+14600,GM14600,2022,Negative (-),,0,amyloid_negative
+14602,GF14602,2022,Negative (-),,0,amyloid_negative
+14603,GF14603,2022,Negative (-),,0,amyloid_negative
+14605,GM14605,,Negative (-),,0,amyloid_negative
+14606,GF14606,2022,Positive (+),,1,amyloid_positive
+14607,GM14607,2022,Negative (-),,0,amyloid_negative
+14613,GF14613,,Negative (-),,0,amyloid_negative
+14620,GF14620,,Negative (-),,0,amyloid_negative
+14623,GF14623,2022,Negative (-),,0,amyloid_negative
+14627,GF14627,2022,Negative (-),,0,amyloid_negative
+14628,GF14628,2022,Negative (-),,0,amyloid_negative
+14629,GF14629,,Negative (-),,0,amyloid_negative
+14631,GF14631,2022,Positive (+) : Positive (+),,1,amyloid_positive
+14634,GM14634,2022,Negative (-),,0,amyloid_negative
+14640,GM14640,2022,Negative (-),,0,amyloid_negative
+14641,GF14641,2022,Negative (-),,0,amyloid_negative
+14652,GM14652,2022,Negative (-),,0,amyloid_negative
+14655,GM14655,2022,Negative (-),,0,amyloid_negative
+14657,GF14657,2022,Negative (-),,0,amyloid_negative
+14658,GM14658,2022,Negative (-),,0,amyloid_negative
+14663,GM14663,,Negative (-),,0,amyloid_negative
+14670,GF14670,2022,Negative (-),,0,amyloid_negative
+14674,GM14674,2022,Negative (-),,0,amyloid_negative
+14680,GM14680,2022,Negative (-),,0,amyloid_negative
+14681,GF14681,2022,Positive (+),,1,amyloid_positive
+14682,GM14682,2022,Negative (-),,0,amyloid_negative
+14683,GF14683,2022,Negative (-),,0,amyloid_negative
+14686,GF14686,2022,Negative (-),,0,amyloid_negative
+14688,GF14688,,Negative (-),,0,amyloid_negative
+14689,GF14689,2022,Negative (-),,0,amyloid_negative
+14691,GF14691,2022,Negative (-),,0,amyloid_negative
+14703,GF14703,2022,Negative (-),,0,amyloid_negative
+14704,GM14704,2022,Positive (+),,1,amyloid_positive
+14707,GM14707,2022,Negative (-),,0,amyloid_negative
+14708,GF14708,2022,Negative (-),,0,amyloid_negative
+14709,GM14709,2022,Negative (-),,0,amyloid_negative
+14712,GM14712,2022,Positive (+),,1,amyloid_positive
+14713,GF14713,2022,Positive (+),,1,amyloid_positive
+14717,GM14717,2022,Negative (-),,0,amyloid_negative
+14721,GF14721,2022,Negative (-),,0,amyloid_negative
+14725,GF14725,2022,Negative (-),,0,amyloid_negative
+14726,GM14726,2022,Negative (-),,0,amyloid_negative
+14730,GF14730,2022,Positive (+),,1,amyloid_positive
+14733,GM14733,,Negative (-),,0,amyloid_negative
+14734,GF14734,2022,Negative (-),,0,amyloid_negative
+14739,GF14739,2022,Negative (-),,0,amyloid_negative
+14740,GM14740,2022,Negative (-),,0,amyloid_negative
+14741,GM14741,2022,Positive (+),,1,amyloid_positive
+14743,GF14743,2022,Negative (-),,0,amyloid_negative
+14744,GF14744,2022,Positive (+),,1,amyloid_positive
+14748,GM14748,2022,Negative (-),,0,amyloid_negative
+14750,GF14750,,Negative (-),,0,amyloid_negative
+14751,GM14751,,Negative (-),,0,amyloid_negative
+14754,GF14754,2022,Negative (-),,0,amyloid_negative
+14756,GM14756,2022,Negative (-),,0,amyloid_negative
+14758,GF14758,2022,Negative (-),,0,amyloid_negative
+14759,GM14759,2022,Negative (-),,0,amyloid_negative
+14761,GF14761,2022,Negative (-),,0,amyloid_negative
+14762,GF14762,2022,Negative (-),,0,amyloid_negative
+14763,GF14763,2022,Negative (-),,0,amyloid_negative
+14764,GF14764,2022,Negative (-),,0,amyloid_negative
+14765,GF14765,2022,Negative (-),,0,amyloid_negative
+14768,GM14768,2022,Negative (-),,0,amyloid_negative
+14770,GM14770,2022,Negative (-),,0,amyloid_negative
+14771,GF14771,2022,Negative (-),,0,amyloid_negative
+14773,GF14773,2022,Negative (-),,0,amyloid_negative
+14777,GF14777,2022,Negative (-),,0,amyloid_negative
+14779,GF14779,2022,Positive (+),,1,amyloid_positive
+14783,GF14783,2022,Positive (+) : Positive (+),,1,amyloid_positive
+14790,GF14790,2022,Negative (-),,0,amyloid_negative
+14793,GF14793,2022,Negative (-),,0,amyloid_negative
+14794,GF14794,2022,Negative (-),,0,amyloid_negative
+14796,GM14796,,Negative (-),,0,amyloid_negative
+14802,GF14802,2022,Negative (-),,0,amyloid_negative
+14803,GM14803,,Negative (-),,0,amyloid_negative
+14804,GF14804,,Negative (-),,0,amyloid_negative
+14805,GF14805,2022,Negative (-),,0,amyloid_negative
+14812,GM14812,,Negative (-),,0,amyloid_negative
+14816,GF14816,2022,Negative (-),,0,amyloid_negative
+14817,GF14817,2022,Negative (-),,0,amyloid_negative
+14820,GF14820,,Negative (-),,0,amyloid_negative
+14828,GM14828,2022,Negative (-),,0,amyloid_negative
+14829,GM14829,2022,Negative (-),,0,amyloid_negative
+14830,GF14830,2022,Positive (+),,1,amyloid_positive
+14831,GF14831,2022,Negative (-),,0,amyloid_negative
+14832,GF14832,2022,Negative (-),,0,amyloid_negative
+14833,GM14833,2022,Positive (+),,1,amyloid_positive
+14834,GF14834,2022,Negative (-),,0,amyloid_negative
+14835,GF14835,2022,Positive (+),,1,amyloid_positive
+14836,GM14836,2022,Negative (-),,0,amyloid_negative
+14837,GF14837,2022,Negative (-),,0,amyloid_negative
+14838,GF14838,2022,Negative (-),,0,amyloid_negative
+14839,GM14839,2022,Negative (-),,0,amyloid_negative
+14843,GF14843,2022,Negative (-),,0,amyloid_negative
+14847,GF14847,2022,Positive (+),,1,amyloid_positive
+14848,GF14848,2022,Negative (-),,0,amyloid_negative
+14850,GF14850,2022,Negative (-),,0,amyloid_negative
+14851,GF14851,2022,Negative (-),,0,amyloid_negative
+14852,GF14852,2022,Positive (+),,1,amyloid_positive
+14853,GF14853,2022,Negative (-),,0,amyloid_negative
+14854,GF14854,2022,Positive (+),,1,amyloid_positive
+14855,GF14855,,Negative (-),,0,amyloid_negative
+14857,GM14857,,Positive (+),,1,amyloid_positive
+14858,GF14858,2022,Negative (-),,0,amyloid_negative
+14862,GF14862,2022,Negative (-),,0,amyloid_negative
+14868,GF14868,,Negative (-),,0,amyloid_negative
+14871,GF14871,2022,Negative (-),,0,amyloid_negative
+14874,GF14874,,Positive (+),,1,amyloid_positive
+14877,GF14877,2022,Negative (-),,0,amyloid_negative
+14882,GF14882,,Negative (-),,0,amyloid_negative
+14883,GM14883,,Negative (-),,0,amyloid_negative
+14887,GM14887,2022,Negative (-),,0,amyloid_negative
+14889,GF14889,2022,Negative (-),,0,amyloid_negative
+14891,GF14891,2022,Negative (-),,0,amyloid_negative
+14892,GF14892,2022,Negative (-),,0,amyloid_negative
+14898,GM14898,2022,Negative (-),,0,amyloid_negative
+14899,GF14899,,Negative (-),,0,amyloid_negative
+14900,GM14900,2022,Negative (-),,0,amyloid_negative
+14904,GM14904,2022,Negative (-),,0,amyloid_negative
+14905,GF14905,2022,Negative (-),,0,amyloid_negative
+14907,GF14907,2022,Negative (-),,0,amyloid_negative
+14909,GM14909,2022,Negative (-),,0,amyloid_negative
+14919,GM14919,2022,Positive (+),,1,amyloid_positive
+14920,GF14920,2022,Negative (-),,0,amyloid_negative
+14923,GF14923,2022,Negative (-),,0,amyloid_negative
+14927,GM14927,,Negative (-),,0,amyloid_negative
+14928,GF14928,2022,Negative (-),,0,amyloid_negative
+14933,GF14933,2022,Positive (+),,1,amyloid_positive
+14937,GF14937,2022,Negative (-),,0,amyloid_negative
+14938,GF14938,,Negative (-),,0,amyloid_negative
+14941,GF14941,2022,Negative (-),,0,amyloid_negative
+14944,GF14944,2022,Negative (-),,0,amyloid_negative
+14946,GF14946,2022,Negative (-),,0,amyloid_negative
+14948,GF14948,2022,Negative (-),,0,amyloid_negative
+14949,GF14949,2022,Negative (-),,0,amyloid_negative
+14950,GM14950,2022,Positive (+),,1,amyloid_positive
+14962,GM14962,2022,Positive (+) : Positive (+),,1,amyloid_positive
+14966,GF14966,2022,Positive (+),,1,amyloid_positive
+14969,GF14969,2022,Negative (-),,0,amyloid_negative
+14971,GF14971,,Positive (+),,1,amyloid_positive
+14972,GM14972,,Negative (-),,0,amyloid_negative
+14995,GF14995,2022,Positive (+),,1,amyloid_positive
+15011,GF15011,,Negative (-),,0,amyloid_negative
+15015,GF15015,,Negative (-),,0,amyloid_negative
+15037,GF15037,2022,Negative (-),,0,amyloid_negative
+15047,GF15047,2022,Negative (-),,0,amyloid_negative
+15048,GM15048,2022,Negative (-),,0,amyloid_negative
+15060,GM15060,2022,Negative (-),,0,amyloid_negative
+15064,GF15064,2022,Negative (-),,0,amyloid_negative
+15080,GM15080,2022,Negative (-),,0,amyloid_negative
+15089,GM15089,,Negative (-),,0,amyloid_negative
+15099,GM15099,,Positive (+),,1,amyloid_positive
+15115,GF15115,2022,Positive (+),,1,amyloid_positive
+15116,GM15116,2022,Positive (+),,1,amyloid_positive
+15122,GF15122,2022,Negative (-),,0,amyloid_negative
+15124,GF15124,2022,Negative (-),,0,amyloid_negative
+15127,GF15127,2022,Positive (+),,1,amyloid_positive
+15132,GF15132,2022,Positive (+),,1,amyloid_positive
+15148,GM15148,2022,Negative (-),,0,amyloid_negative
+15160,GM15160,2022,Negative (-),,0,amyloid_negative
+15161,GF15161,2022,Negative (-),,0,amyloid_negative
+15166,GF15166,2022,Negative (-),,0,amyloid_negative
+15194,GM15194,2022,Negative (-),,0,amyloid_negative
+15209,GF15209,2022,Negative (-),,0,amyloid_negative
+15211,GM15211,2022,Positive (+),,1,amyloid_positive
+15216,GF15216,2022,Negative (-),,0,amyloid_negative
+15241,GF15241,2022,Negative (-),,0,amyloid_negative
+15247,GF15247,2022,Negative (-),,0,amyloid_negative
+15251,GM15251,2022,Negative (-),,0,amyloid_negative
+15265,GM15265,2022,Positive (+),,1,amyloid_positive
+15309,GM15309,2022,Positive (+),,1,amyloid_positive
+15312,GM15312,2022,Positive (+) : Positive (+),,1,amyloid_positive
+15314,GF15314,2022,Negative (-) : Negative (-),,0,amyloid_negative
+15320,GM15320,2022,Positive (+),,1,amyloid_positive
+15328,GF15328,,Positive (+),,1,amyloid_positive
+15330,GF15330,2022,Negative (-),,0,amyloid_negative
+15339,GM15339,2022,Positive (+) : Positive (+),,1,amyloid_positive
+15342,GF15342,2022,Positive (+),,1,amyloid_positive
+15347,GF15347,,Positive (+) : Positive (+),,1,amyloid_positive
+15360,GF15360,2022,Positive (+),,1,amyloid_positive
+15362,GF15362,2022,Negative (-),,0,amyloid_negative
+15371,GF15371,2022,Negative (-),,0,amyloid_negative
+15380,GF15380,2022,Negative (-),,0,amyloid_negative
+15402,GF15402,,Negative (-),,0,amyloid_negative
+15405,GF15405,,Negative (-),,0,amyloid_negative
+15414,GF15414,2023,Positive (+),,1,amyloid_positive
+15417,GF15417,,Negative (-),,0,amyloid_negative
+15419,GF15419,,Positive (+) : Positive (+),,1,amyloid_positive
+15468,GM15468,,Negative (-),,0,amyloid_negative
+15493,GF15493,,Negative (-),,0,amyloid_negative
+15497,GF15497,,Negative (-),,0,amyloid_negative
+15554,GF15554,,Negative (-),,0,amyloid_negative
+15595,GF15595,,Negative (-),,0,amyloid_negative
+15596,GM15596,,Negative (-),,0,amyloid_negative
+15606,GF15606,,Positive (+),,1,amyloid_positive
+15607,GM15607,,Negative (-),,0,amyloid_negative
+15636,GF15636,,Positive (+),,1,amyloid_positive
+15643,GM15643,,Negative (-),,0,amyloid_negative
+15656,GM15656,,Negative (-),,0,amyloid_negative
+15661,GF15661,,Negative (-),,0,amyloid_negative
+15662,GF15662,,Negative (-),,0,amyloid_negative
+15672,GM15672,,Negative (-),,0,amyloid_negative
+15678,GM15678,,Negative (-),,0,amyloid_negative
+15680,GF15680,,Negative (-),,0,amyloid_negative
+15681,GF15681,,Positive (+),,1,amyloid_positive
+15697,GF15697,,Negative (-),,0,amyloid_negative
+15700,GF15700,,Negative (-),,0,amyloid_negative
+15709,GF15709,,Positive (+),,1,amyloid_positive
+15711,GF15711,,Positive (+),,1,amyloid_positive
+15715,GM15715,,Positive (+),,1,amyloid_positive
+15730,GM15730,,Negative (-),,0,amyloid_negative
+15739,GF15739,,Positive (+),,1,amyloid_positive
+15740,GF15740,,Negative (-),,0,amyloid_negative
+15750,GF15750,,Positive (+),,1,amyloid_positive
+15753,GF15753,,Negative (-),,0,amyloid_negative
+15761,GF15761,,Positive (+) : Positive (+),,1,amyloid_positive
+15772,GF15772,,Negative (-),,0,amyloid_negative
+15787,GF15787,,Negative (-),,0,amyloid_negative
+15798,GM15798,,Negative (-),,0,amyloid_negative
+15802,GF15802,,Negative (-),,0,amyloid_negative
+15816,GF15816,,Negative (-),,0,amyloid_negative
+15835,GM15835,,Negative (-),,0,amyloid_negative
+15855,GM15855,,Negative (-),,0,amyloid_negative
+15874,GF15874,,Negative (-),,0,amyloid_negative
+15898,GF15898,,Negative (-),,0,amyloid_negative
+15939,GM15939,,Negative (-),,0,amyloid_negative
+15948,GM15948,,Negative (-),,0,amyloid_negative
+16017,GM16017,,Negative (-),,0,amyloid_negative
+16021,GM16021,,Negative (-),,0,amyloid_negative
+16022,GM16022,,Negative (-),,0,amyloid_negative
+16029,GF16029,,Negative (-),,0,amyloid_negative
+16046,GF16046,,Negative (-),,0,amyloid_negative
+16049,GF16049,,Negative (-),,0,amyloid_negative
+16111,GM16111,,Positive (+),,1,amyloid_positive
+16134,GF16134,,Negative (-),,0,amyloid_negative
+16135,GF16135,,Negative (-),,0,amyloid_negative
+16136,GM16136,,Negative (-),,0,amyloid_negative
+16137,GF16137,,Negative (-),,0,amyloid_negative
+16169,GM16169,,Positive (+),,1,amyloid_positive
