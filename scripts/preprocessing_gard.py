@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 """
-GARD EEG to LMDB Converter
+GARD EEG to LMDB Converter (v2 - Multi-label Support)
 - DIVER 모델 학습용 LMDB 포맷 변환
-- Task별 finetune용 (beam, sensory, attention)
+- EEG Task별 처리 (beam, sensory, attention)
+- 멀티라벨 지원 (task_a ~ task_e, 확장 가능)
 - 60:20:20 split (subject 기준)
 
 사용법:
-    python preprocessing_gard.py --task beam --data_path /storage/bigdata/GARD/EEG/edf --save_path /storage/bigdata/GARD/EEG/lmdb
+    python preprocessing_gard.py --eeg_task beam \
+        --data_path /path/to/edf \
+        --save_path /path/to/lmdb \
+        --label_path /path/to/labels
 
 작성일: 2025-01-15
+수정일: 2025-01-20 (멀티라벨 지원)
 """
 
 import os
@@ -19,6 +24,7 @@ import pickle
 import lmdb
 import numpy as np
 import mne
+import pandas as pd
 from pathlib import Path
 from tqdm import tqdm
 from collections import defaultdict
@@ -30,7 +36,10 @@ GARD_CHANNELS = ['Fp1', 'Fp2', 'PPG', 'sdPPG', 'HeartInterval', 'PowerSpectrum',
 ORIGINAL_SAMPLING_RATE = 250  # GARD EEG 원본 샘플링 레이트
 TARGET_SAMPLING_RATE = 500    # DIVER 모델 호환용 (500Hz로 리샘플링)
 SEGMENT_LEN = 30     # 30초 세그먼트
-TASKS = ['beam', 'sensory', 'attention']
+EEG_TASKS = ['beam', 'sensory', 'attention']
+
+# 분류 태스크 목록 (확장 가능)
+CLASSIFICATION_TASKS = ['task_a', 'task_b', 'task_c', 'task_d', 'task_e']
 
 # 전처리 설정 (DIVER 동일)
 HIGHPASS = 0.3
@@ -40,13 +49,15 @@ NOTCH = [60]
 # ============================================================
 # Arguments
 # ============================================================
-parser = argparse.ArgumentParser(description='GARD EEG to LMDB Converter')
-parser.add_argument('--task', type=str, required=True, choices=TASKS + ['all'],
-                    help='Task to process (beam/sensory/attention/all)')
+parser = argparse.ArgumentParser(description='GARD EEG to LMDB Converter (Multi-label)')
+parser.add_argument('--eeg_task', type=str, required=True, choices=EEG_TASKS + ['all'],
+                    help='EEG task to process (beam/sensory/attention/all)')
 parser.add_argument('--data_path', type=str, default='/storage/bigdata/GARD/EEG/edf',
                     help='Root directory of EDF files')
 parser.add_argument('--save_path', type=str, default='/storage/bigdata/GARD/EEG/lmdb',
                     help='Directory to save LMDB files')
+parser.add_argument('--label_path', type=str, default=None,
+                    help='Directory containing label CSV files (task_a_*.csv, etc.)')
 parser.add_argument('--resample_rate', type=int, default=500,
                     help='Resample rate (default: 500 for DIVER compatibility)')
 parser.add_argument('--segment_len', type=int, default=30,
@@ -64,6 +75,87 @@ args = parser.parse_args()
 
 
 # ============================================================
+# Label Loading Functions
+# ============================================================
+def load_all_labels(label_path):
+    """
+    Load all label CSV files and create oid -> multi-label mapping
+
+    Args:
+        label_path: Directory containing label CSV files
+
+    Returns:
+        Dict with oid -> {task_a: label, task_b: label, ...}
+
+    ID Mapping Reference:
+        - LMDB subject_id: "{year}_{oid}" (e.g., "2019_23")
+        - CSV object_idx: integer (e.g., 23)
+        - Mapping: lmdb_subject_id.split('_')[1] == str(object_idx)
+    """
+    if label_path is None:
+        print("[Labels] No label_path provided, all labels will be None")
+        return {}
+
+    if not os.path.exists(label_path):
+        print(f"[Labels] Warning: label_path not found: {label_path}")
+        return {}
+
+    oid_to_labels = defaultdict(dict)
+
+    # Task file patterns
+    task_files = {
+        'task_a': 'task_a_progression_single.csv',
+        'task_b': 'task_b_progression_paired.csv',
+        'task_c': 'task_c_amyloid.csv',
+        'task_d': 'task_d_hippocampus.csv',
+        'task_e': 'task_e_mtl_atrophy.csv',
+    }
+
+    for task_name, filename in task_files.items():
+        csv_path = os.path.join(label_path, filename)
+        if not os.path.exists(csv_path):
+            print(f"[Labels] {task_name}: File not found - {filename}")
+            continue
+
+        try:
+            df = pd.read_csv(csv_path)
+            count = 0
+            for _, row in df.iterrows():
+                oid = int(row['object_idx'])
+                label = row['label']
+                if pd.notna(label):
+                    oid_to_labels[oid][task_name] = int(label)
+                    count += 1
+            print(f"[Labels] {task_name}: Loaded {count} labels from {filename}")
+        except Exception as e:
+            print(f"[Labels] {task_name}: Error loading {filename} - {e}")
+
+    print(f"[Labels] Total unique subjects with labels: {len(oid_to_labels)}")
+    return dict(oid_to_labels)
+
+
+def get_labels_for_subject(oid, oid_to_labels, classification_tasks=CLASSIFICATION_TASKS):
+    """
+    Get multi-label dict for a subject
+
+    Args:
+        oid: Object ID (integer)
+        oid_to_labels: Dict from load_all_labels()
+        classification_tasks: List of task names
+
+    Returns:
+        Dict with task_name -> label (or None)
+    """
+    labels = {}
+    subject_labels = oid_to_labels.get(oid, {})
+
+    for task in classification_tasks:
+        labels[task] = subject_labels.get(task, None)
+
+    return labels
+
+
+# ============================================================
 # Helper Functions
 # ============================================================
 def setup_seed(seed):
@@ -72,13 +164,13 @@ def setup_seed(seed):
     random.seed(seed)
 
 
-def get_file_list(root_dir, task):
+def get_file_list(root_dir, eeg_task):
     """
-    Get list of EDF files for a specific task
+    Get list of EDF files for a specific EEG task
 
     Args:
         root_dir: Root directory (e.g., /storage/bigdata/GARD/EEG/edf)
-        task: Task name (beam/sensory/attention)
+        eeg_task: EEG task name (beam/sensory/attention)
 
     Returns:
         Dict with subject_id -> file_path mapping
@@ -87,7 +179,7 @@ def get_file_list(root_dir, task):
     years = ['2019', '2020', '2021', '2022', '2023']
 
     for year in years:
-        task_dir = os.path.join(root_dir, year, task)
+        task_dir = os.path.join(root_dir, year, eeg_task)
         if not os.path.exists(task_dir):
             print(f"[Warning] Directory not found: {task_dir}")
             continue
@@ -105,7 +197,7 @@ def get_file_list(root_dir, task):
                 file_path = os.path.join(task_dir, filename)
                 file_dict[full_subject_id] = file_path
 
-    print(f"[{task}] Found {len(file_dict)} EDF files")
+    print(f"[{eeg_task}] Found {len(file_dict)} EDF files")
     return file_dict
 
 
@@ -255,7 +347,7 @@ def segment_data(raw, segment_len=SEGMENT_LEN, resample_rate=TARGET_SAMPLING_RAT
 
         # Reshape to (channels, seconds, samples_per_second)
         # e.g., (2, 30, 500) for 2 channels (Fp1, Fp2), 30 seconds, 500 Hz
-        # DIVER 형식: (C, N, P) where N=seconds, P=samples_per_second
+        # DIVER format: (C, N, P) where N=seconds, P=samples_per_second
         segment_reshaped = segment.reshape(n_channels, segment_len, resample_rate)
 
         start_time = i * segment_len
@@ -264,17 +356,17 @@ def segment_data(raw, segment_len=SEGMENT_LEN, resample_rate=TARGET_SAMPLING_RAT
     return segments
 
 
-def extract_metadata(file_path, segment_idx, task):
+def extract_metadata(file_path, segment_idx, eeg_task):
     """
     Extract metadata from file path
 
     Args:
         file_path: Path to EDF file
         segment_idx: Segment index within the file
-        task: Task name
+        eeg_task: EEG task name
 
     Returns:
-        Dict with metadata
+        Dict with metadata including oid for label lookup
     """
     filename = os.path.basename(file_path)
     # Pattern: k_001_oid_5740_beam_... or a_039_oid_11313_beam_...
@@ -293,28 +385,31 @@ def extract_metadata(file_path, segment_idx, task):
     else:
         year = 'unknown'
         subject_id = filename.replace('.edf', '')
+        oid = None
 
-    sample_key = f"GARD_{year}_{subject_id}_{task}_seg{segment_idx:04d}"
+    sample_key = f"GARD_{year}_{subject_id}_{eeg_task}_seg{segment_idx:04d}"
 
     return {
         'sample_key': sample_key,
         'subject_id': f"{year}_{subject_id}",
+        'oid': int(oid) if oid else None,  # For label lookup
         'year': year,
-        'task': task,
+        'eeg_task': eeg_task,
         'segment_index': segment_idx
     }
 
 
-def process_file(file_path, task, resample_rate, segment_len, eeg_only=False):
+def process_file(file_path, eeg_task, resample_rate, segment_len, eeg_only, oid_to_labels):
     """
     Process a single EDF file
 
     Args:
         file_path: Path to EDF file
-        task: Task name
+        eeg_task: EEG task name
         resample_rate: Target sampling rate
         segment_len: Segment length in seconds
         eeg_only: Use only EEG channels
+        oid_to_labels: Dict with oid -> multi-label mapping
 
     Returns:
         List of (sample_key, value_to_store) tuples
@@ -335,24 +430,33 @@ def process_file(file_path, task, resample_rate, segment_len, eeg_only=False):
     channel_names = raw.ch_names
 
     for i, (segment, start_time) in enumerate(segments):
-        meta = extract_metadata(file_path, i, task)
+        meta = extract_metadata(file_path, i, eeg_task)
+
+        # Get multi-labels for this subject
+        labels = get_labels_for_subject(meta['oid'], oid_to_labels) if meta['oid'] else {}
 
         value_to_store = {
             'sample': segment.astype(np.float32),
-            'label': None,  # GARD는 분류 레이블 없음 (pretraining용)
-            'split': None,  # 나중에 설정
+            # Multi-label fields (None if not applicable)
+            'task_a': labels.get('task_a', None),
+            'task_b': labels.get('task_b', None),
+            'task_c': labels.get('task_c', None),
+            'task_d': labels.get('task_d', None),
+            'task_e': labels.get('task_e', None),
+            'split': None,  # Set later
             'data_info': {
                 'Dataset': 'GARD',
                 'modality': 'EEG',
                 'release': meta['year'],
                 'subject_id': meta['subject_id'],
-                'task': task,
+                'oid': meta['oid'],  # For future label updates
+                'eeg_task': eeg_task,
                 'resampling_rate': resample_rate,
                 'original_sampling_rate': original_sr,
                 'segment_index': i,
                 'start_time': start_time,
                 'channel_names': channel_names,
-                'xyz_id': None,  # GARD는 좌표 정보 없음
+                'xyz_id': None,  # GARD doesn't have coordinate info
             }
         }
 
@@ -435,18 +539,22 @@ def merge_lmdb_splits(lmdb_paths, merged_path, map_size=30*1024*1024*1024):
 # ============================================================
 # Main
 # ============================================================
-def process_task(task, data_path, save_path, resample_rate, segment_len, seed, eeg_only, debug, dry_run=False):
+def process_eeg_task(eeg_task, data_path, save_path, label_path, resample_rate,
+                     segment_len, seed, eeg_only, debug, dry_run=False):
     """
-    Process all files for a single task
+    Process all files for a single EEG task
     """
     print(f"\n{'='*60}")
-    print(f"Processing Task: {task}")
+    print(f"Processing EEG Task: {eeg_task}")
     print(f"{'='*60}")
 
+    # Load labels
+    oid_to_labels = load_all_labels(label_path)
+
     # Get file list
-    file_dict = get_file_list(data_path, task)
+    file_dict = get_file_list(data_path, eeg_task)
     if not file_dict:
-        print(f"[Error] No files found for task: {task}")
+        print(f"[Error] No files found for EEG task: {eeg_task}")
         return
 
     # Split files
@@ -454,7 +562,7 @@ def process_task(task, data_path, save_path, resample_rate, segment_len, seed, e
 
     # Dry run mode - just show info
     if dry_run:
-        print(f"\n📋 DRY RUN - File Summary for {task}")
+        print(f"\n📋 DRY RUN - File Summary for {eeg_task}")
         print(f"{'─'*40}")
         total_files = 0
         for split_name, file_paths in splits.items():
@@ -466,7 +574,11 @@ def process_task(task, data_path, save_path, resample_rate, segment_len, seed, e
         print(f"  Total: {total_files:4d} files")
         print(f"\n📊 Expected Output:")
         print(f"  Shape: ({2 if eeg_only else 7}, {segment_len}, {resample_rate})")
-        print(f"  LMDB path: {save_path}/{task}/merged_resample-{resample_rate}_*.lmdb")
+        print(f"  LMDB path: {save_path}/{eeg_task}/merged_resample-{resample_rate}_*.lmdb")
+        print(f"\n📋 Label Summary:")
+        for task in CLASSIFICATION_TASKS:
+            count = sum(1 for labels in oid_to_labels.values() if task in labels)
+            print(f"  {task}: {count} subjects with labels")
         return
 
     # Process each split
@@ -479,7 +591,8 @@ def process_task(task, data_path, save_path, resample_rate, segment_len, seed, e
 
         all_results = []
         for file_path in tqdm(file_paths, desc=f"Processing {split_name}"):
-            results = process_file(file_path, task, resample_rate, segment_len, eeg_only)
+            results = process_file(file_path, eeg_task, resample_rate, segment_len,
+                                   eeg_only, oid_to_labels)
             all_results.extend(results)
 
         if not all_results:
@@ -488,42 +601,44 @@ def process_task(task, data_path, save_path, resample_rate, segment_len, seed, e
 
         # Save to LMDB
         lmdb_name = f"{split_name}_resample-{resample_rate}_highpass-{HIGHPASS}_lowpass-{LOWPASS}.lmdb"
-        lmdb_path = os.path.join(save_path, task, lmdb_name)
+        lmdb_path = os.path.join(save_path, eeg_task, lmdb_name)
         save_to_lmdb(all_results, split_name, lmdb_path)
         lmdb_paths.append((split_name, lmdb_path))
 
     # Merge splits
     if lmdb_paths:
         merged_name = f"merged_resample-{resample_rate}_highpass-{HIGHPASS}_lowpass-{LOWPASS}.lmdb"
-        merged_path = os.path.join(save_path, task, merged_name)
+        merged_path = os.path.join(save_path, eeg_task, merged_name)
         merge_lmdb_splits(lmdb_paths, merged_path)
 
-    print(f"\n✅ Task {task} completed!")
+    print(f"\n✅ EEG Task {eeg_task} completed!")
 
 
 def main():
     print("="*60)
-    print("GARD EEG to LMDB Converter")
+    print("GARD EEG to LMDB Converter (Multi-label Support)")
     print("="*60)
-    print(f"Data path: {args.data_path}")
-    print(f"Save path: {args.save_path}")
-    print(f"Task: {args.task}")
-    print(f"Resample rate: {args.resample_rate} Hz")
-    print(f"Segment length: {args.segment_len} sec")
-    print(f"EEG only: {args.eeg_only}")
-    print(f"Random seed: {args.seed}")
-    print(f"Debug mode: {args.debug}")
-    print(f"Dry run: {args.dry_run}")
+    print(f"Data path:   {args.data_path}")
+    print(f"Save path:   {args.save_path}")
+    print(f"Label path:  {args.label_path}")
+    print(f"EEG Task:    {args.eeg_task}")
+    print(f"Resample:    {args.resample_rate} Hz")
+    print(f"Segment len: {args.segment_len} sec")
+    print(f"EEG only:    {args.eeg_only}")
+    print(f"Seed:        {args.seed}")
+    print(f"Debug:       {args.debug}")
+    print(f"Dry run:     {args.dry_run}")
 
     setup_seed(args.seed)
 
-    tasks_to_process = TASKS if args.task == 'all' else [args.task]
+    eeg_tasks_to_process = EEG_TASKS if args.eeg_task == 'all' else [args.eeg_task]
 
-    for task in tasks_to_process:
-        process_task(
-            task=task,
+    for eeg_task in eeg_tasks_to_process:
+        process_eeg_task(
+            eeg_task=eeg_task,
             data_path=args.data_path,
             save_path=args.save_path,
+            label_path=args.label_path,
             resample_rate=args.resample_rate,
             segment_len=args.segment_len,
             seed=args.seed,
@@ -533,7 +648,7 @@ def main():
         )
 
     print("\n" + "="*60)
-    print("🎉 All tasks completed!")
+    print("🎉 All EEG tasks completed!")
     print("="*60)
 
 

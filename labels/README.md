@@ -175,6 +175,52 @@ CN (0) → SCD (1) → MCI (2) → Dem (3)
 
 ---
 
+## LMDB-CSV ID 매핑
+
+### ID 체계
+
+| 소스 | 필드명 | 형식 | 예시 |
+|------|--------|------|------|
+| **LMDB** | `data_info['subject_id']` | `{year}_{oid}` | `2019_23` |
+| **CSV** | `object_idx` | 정수 | `23` |
+| **CSV** | `subject_id` | `GM{idx:05d}` | `GM00023` |
+
+### 매핑 방법
+
+```python
+# LMDB → CSV 매핑
+lmdb_subject_id = data['data_info']['subject_id']  # "2019_23"
+oid = int(lmdb_subject_id.split('_')[1])  # 23
+# CSV에서 object_idx == oid 인 행의 label 사용
+
+# 예시
+# LMDB: subject_id="2019_23" → oid=23
+# CSV: object_idx=23, subject_id="GM00023", label=0
+```
+
+### LMDB 구조
+
+```
+/pscratch/sd/b/boheelee/GARD/EEG/lmdb/
+├── attention/merged_resample-500_highpass-0.3_lowpass-200.lmdb
+├── beam/merged_resample-500_highpass-0.3_lowpass-200.lmdb
+└── sensory/merged_resample-500_highpass-0.3_lowpass-200.lmdb
+```
+
+**LMDB 데이터 구조**:
+- `sample`: ndarray (2, 30, 500) - Fp1, Fp2 채널
+- `label`: None → CSV에서 매핑 필요
+- `split`: str (train/val/test)
+- `data_info`: dict (subject_id, task, year 등)
+
+### 주의사항
+
+1. LMDB의 `task` (attention/beam/sensory)는 **EEG 측정 패러다임**
+2. CSV의 Task A-E는 **분류 태스크** (별개 개념)
+3. 한 subject가 여러 segment 가질 수 있음 (seg0000, seg0001, ...)
+
+---
+
 ## References
 
 - Jack et al. - Hippocampal volume normative cutoffs
