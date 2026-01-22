@@ -1,0 +1,30 @@
+# finetune_main.py 패치 가이드
+# 파일 위치: /global/cfs/cdirs/m4727/DIVER/DIVER-Clinical/src/finetune_main.py
+
+# ============================================================
+# 1. ArgumentParser에 --gard_task 추가
+# ============================================================
+
+# --embarc_preset 근처에 추가:
+
+parser.add_argument('--gard_task', type=str, default='task_a',
+                    choices=['task_a', 'task_b', 'task_c', 'task_d', 'task_e'],
+                    help='GARD task for progression label (task_a=progression_single)')
+
+
+# ============================================================
+# 2. 데이터셋 로드 부분 수정 (GARD 조건 추가)
+# ============================================================
+
+# 기존 load_dataset 호출 부분을 찾아서:
+# if args.downstream_dataset == 'EMBARC': 블록 근처에
+
+# 아래 블록 추가:
+if args.downstream_dataset == 'GARD':
+    train_dataset, val_dataset, test_dataset = load_dataset_fn(
+        datasets_dir=args.datasets_dir,
+        target_task=args.gard_task,
+        # ... 기타 인자들
+    )
+
+# 또는 load_dataset_fn 호출 시 target_task 인자 전달 로직 추가

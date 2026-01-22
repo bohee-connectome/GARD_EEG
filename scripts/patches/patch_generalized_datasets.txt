@@ -1,0 +1,35 @@
+# generalized_datasets.py 패치 가이드
+# 파일 위치: /global/cfs/cdirs/m4727/DIVER/DIVER-Clinical/src/datasets/generalized_datasets.py
+
+# ============================================================
+# 1. Import 추가 (다른 dataset import 근처에)
+# ============================================================
+
+# 기존:
+from datasets.embarc_dataset import EMBARCLoadDataset
+
+# 변경 후:
+from datasets.embarc_dataset import EMBARCLoadDataset
+from datasets.gard_dataset import GARDLoadDataset
+
+
+# ============================================================
+# 2. DATASETS_DICT에 GARD 추가
+# ============================================================
+
+# 기존:
+DATASETS_DICT = {
+    'TUAB': TUABLoadDataset,
+    'TUEV': TUEVLoadDataset,
+    'EMBARC': EMBARCLoadDataset,
+    # ... 기타
+}
+
+# 변경 후:
+DATASETS_DICT = {
+    'TUAB': TUABLoadDataset,
+    'TUEV': TUEVLoadDataset,
+    'EMBARC': EMBARCLoadDataset,
+    'GARD': GARDLoadDataset,    # ← 이 줄 추가
+    # ... 기타
+}
